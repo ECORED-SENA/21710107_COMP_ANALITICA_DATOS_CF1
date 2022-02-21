@@ -28,4 +28,21 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.seccion-principal
+  overflow-x: hidden
+.banner-principal__img
+  img
+    max-width: 439px
+.banner-principal__row
+  .banner-principal__info
+    @media (min-width: 1400px)
+      width: 50%
+.titulo-principal
+  .titulo-principal__numero
+    background-color: #ffa726
+    span
+      color: white
+.banner-interno__fondo
+  background: linear-gradient(#0F2771, #2C6AE7) !important
+</style>

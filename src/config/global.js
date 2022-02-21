@@ -1,8 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Análisis y clasificación de la información ',
+    descripcionCurso: `El concepto de estudio de analítica de datos aplica para realizar diferentes <br>
+      funciones cotidianas en el proceso logístico, lo zque facilita un mayor <br>
+      dominio del ecosistema de datos y su respectivo análisis para interpretar, <br>
+      comunicar y tomar decisiones estratégicamente en la empresa.`,
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -22,31 +25,37 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
+            numero: '1',
+            titulo: 'Análisis de datos ',
+            hash: 't_1',
+          },
+          {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Información ',
             hash: 't_1_1',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Soporte de análisis de datos',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Características del soporte   ',
+            hash: 't_2_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -55,12 +64,12 @@ export default {
         titulo: 'Sintesis',
         nombreRuta: 'sintesis',
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
