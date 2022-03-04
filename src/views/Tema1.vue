@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-primario
       .titulo-principal__numero
         span 1
       h1 Análisis de datos
@@ -24,60 +24,54 @@
     
     .row.mb-0.mb-md-4
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.png')})`}")
-            .tarjeta-flip__contenido
-              p Datos tradicionales de la empresa procedentes de los sistemas operativos
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_2.png')})`, 'background-color' : '#33A4FF'}")
-            .tarjeta-flip__contenido(style="background-color: #33A4FF")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+              p Datos tradicionales de la empresa procedentes de los sistemas operativos
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_2.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Datos de tráfico y meteorológicos procedentes de sensores, monitores y sistemas de previsión.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_3.png')})`}")
-            .tarjeta-flip__contenido
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_3.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Diagnósticos de vehículos, patrones de conducción e información de localización.
       
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_4.png')})`, 'background-color' : '#33A4FF'}")
-            .tarjeta-flip__contenido(style="background-color: #33A4FF")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_4.svg')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Previsiones financieras del negocio.
               
     .row.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.ms-auto
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_5.png')})`}")
-            .tarjeta-flip__contenido
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_5.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Datos de respuesta publicitaria.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_6.png')})`, 'background-color' : '#33A4FF'}")
-            .tarjeta-flip__contenido(style="background-color: #33A4FF")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_6.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Datos de patrones de navegación de sitios web.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.me-auto
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_7.png')})`}")
-            .tarjeta-flip__contenido
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_7.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
               p Datos de redes sociales
     
     .container-bg
@@ -103,38 +97,40 @@
 
     p.col-12.col-md-11.ms-auto El Big Data en logística requiere una gran cantidad de fuentes de información de alta calidad para funcionar eficazmente. ¿De dónde van a salir todos esos datos? A continuación, se relaciona una amplia selección de posibles fuentes de datos, entre las que se incluyen:
 
+    img(src="@/assets/curso/tema1/imagen_t_1-1.png").my-5
+
     .container_t_1_ad
       .pe-4.mb-auto.mb-md-0
         img(src="@/assets/curso/tema1/icono_t_1-2.svg" style="height: 50px")
-      p(style="background-color: #064FEF") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
+      p(style="background-color: #A6BAE6") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
         br
         br
         |En el cuadro que se comparte, se presentan algunos elementos que permiten reconocer los datos, la información y el conocimiento. 
     .d-flex.flex-wrap.mt-5.justify-content-center.mb-4
       .container_card_t_1.col-12.col-md-4.mx-auto.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_1.png")
-        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px")
+        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
           p Información refinada, estructurada y evolucionada a partir de datos brutos listos para ser analizados
 
       .container_card_t_1.col-12.col-md-4.mx-auto.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_2.png")
-        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px")
+        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
           p La información requiere ser contextualizada para convertirse en conocimiento.
       
       .container_card_t_1.col-12.col-md-4.mx-auto
         img(src="@/assets/curso/tema1/imagen_t_1_card_3.png")
-        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px")
+        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
           p La información se refiere a un flujo de mensajes.
       
     .d-flex.flex-wrap.justify-content-center.mb-5
       .container_card_t_1.col-12.col-md-4.me-0.me-md-2.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_4.png")
-        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px")
+        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
           p La información son datos pero con contexto.
 
       .container_card_t_1.col-12.col-md-4.md-0.ms-md-2.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_5.png")
-        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px")
+        .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
           p La información se refiere a un flujo de mensajes.
     
     p.col-12.col-md-9.mb-3 La ciencia y la tecnología de la información han ganado potencial en términos de transición tecnológica: desde los servidores hasta la nube y las bases de datos más inteligentes, los datos se procesan en un abrir y cerrar de ojos. Con la velocidad, viene la capacidad de procesar datos, incluso con unidades de hardware de bajo coste, como las SSD (unidades de estado sólido), los HDD (discos duros) y los servicios en la nube. Las organizaciones almacenan ahora montones de datos, con la esperanza de procesarlos para obtener información que les ayude a tomar decisiones organizativas o a predecir la futura fiabilidad de sus productos o servicios en el mercado.
@@ -145,20 +141,21 @@
       h2#t_1_1 1.1 Información
 
     .container_t_1_ad.col-12.col-md-9
-      p.ps-5 El concepto de registro de datos se define como el  grupo  de  información, con cierta correlación, estructurado en una tabla comportada por campos, como columnas y filas; el objetivo general de este es poner por escrito y asegurar la conservación de los datos recogidos para estudios específicos  a desarrollar e implementar dentro de la empresa. Cada estudio o necesidad determina los tipos de datos que deben recogerse en función de los objetivos y los recursos disponibles para el mismo. 
+      p.fw-bold.ps-5(style="background-color: #AB62BB; color: black") El concepto de registro de datos se define como el  grupo  de  información, con cierta correlación, estructurado en una tabla comportada por campos, como columnas y filas; el objetivo general de este es poner por escrito y asegurar la conservación de los datos recogidos para estudios específicos  a desarrollar e implementar dentro de la empresa. Cada estudio o necesidad determina los tipos de datos que deben recogerse en función de los objetivos y los recursos disponibles para el mismo. 
     .container_t_1_ad.col-12.col-md-9.ms-auto
-      p.ps-5(style="background-color: #3A71E9") Los tipos de datos utilizados habitualmente en los estudios   suelen estar relacionados con la actividad económica de la empresa. Sin embargo, sea cual sea la naturaleza de los tipos de datos, es necesario disponer de formularios o cuestionarios adecuados para registrar la información que se va a recoger. A menudo, es conveniente preparar estos formularios o cuestionarios por disciplina o tipo de datos. Es preferible el uso de formularios o cuestionarios precodificados, que permitan el registro directo de los datos, ya que, con una formación adecuada, su uso suele dar lugar a menos errores. Además, se utilizará un solo protocolo o conjunto de formularios para recoger y codificar la información que se registrará en el campo para cada unidad de estudio (por ejemplo, familia o individuo).
+      p.fw-bold.ps-5.py-4(style="background-color: #AAC2F5; color: black") Los tipos de datos utilizados habitualmente en los estudios   suelen estar relacionados con la actividad económica de la empresa. Sin embargo, sea cual sea la naturaleza de los tipos de datos, es necesario disponer de formularios o cuestionarios adecuados para registrar la información que se va a recoger. A menudo, es conveniente preparar estos formularios o cuestionarios por disciplina o tipo de datos. Es preferible el uso de formularios o cuestionarios precodificados, que permitan el registro directo de los datos, ya que, con una formación adecuada, su uso suele dar lugar a menos errores. Además, se utilizará un solo protocolo o conjunto de formularios para recoger y codificar la información que se registrará en el campo para cada unidad de estudio (por ejemplo, familia o individuo).
 
     p El objetivo de esta etapa es elaborar todos los formularios y/o cuestionarios necesarios en sus versiones definitivas, tal y como se utilizarán sobre el registro de la empresa. Estos formularios y cuestionarios deben ir acompañados de un conjunto de instrucciones detalladas, recogidas explícitamente en un manual de codificación. 
     p Los formularios y cuestionarios contienen la información necesaria tanto para el desarrollador como para el personal de procesamiento de datos, y generalmente constan de dos partes:
 
-    .tabla-b.color-acento-contenido.mb-4
+    .tabla-b.color-acento-contenido.mb-5
       table.tabla-custom
         thead
           tr
-            th Encabezado 1
-            th Encabezado 2
+            th Un encabezado
+            th Un cuerpo
         tbody
+          tr
           tr
             td.have-border El encabezamiento de los formularios o cuestionarios incluye la información necesaria, principalmente, para preparar los archivos de datos adecuados de acuerdo con los objetivos del estudio, definidos por el investigador responsable.
             td Se hace necesario solicitar los datos y la información real  que se requiera para satisfacer los objetivos del estudio.
@@ -169,12 +166,26 @@
             td.have-border Evidentemente, el tipo de ítems de esta parte del formulario o cuestionario varía según la naturaleza del estudio, pero generalmente debe incluir información del tipo especificado.
             td Sin embargo, siempre es aconsejable consultar con el personal que se encargará del procesamiento y análisis de los datos para evitar problemas relacionados con la gestión de estos.
     
-    p(style="max-width: 610px").mx-auto.text-center A continuación, se presenta un ejemplo de formulario de registro de datos de la Secretaría de Hacienda para obtener el Registro de Información Tributaria RIT
+    p(style="max-width: 610px").mx-auto.text-center.mb-5 A continuación, se presenta un ejemplo de formulario de registro de datos de la Secretaría de Hacienda para obtener el Registro de Información Tributaria RIT
+      br
+      | Además de ello, las instrucciones de diligenciamiento
 
-    .tarjeta.px-3.py-4.mb-3(style="background: linear-gradient(#4F0078, #0F2771)").col-12.col-md-9
+    .tarjeta.px-3.py-4.mb-3(style="background: linear-gradient(90DEG, #A904C2, #400F71)").col-12
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/download-icon.png")
+          img(src="@/assets/curso/tema1/download-icon.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0(style="color: white")
+              h3.mb-1.texto-blanco Documento
+              p.text-small.texto-blanco Registro De Información Tributaria RIT
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+      .row.justify-content-around.align-items-center.mt-5
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema1/download-icon.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(style="color: white")
@@ -185,21 +196,6 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.col-12.col-md-11.ms-auto Además de ello, las instrucciones de diligenciamiento
-
-    .tarjeta.px-3.py-4.mb-5(style="background: linear-gradient(#4F0078, #0F2771)").col-12.col-md-9.ms-auto
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/download-icon.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0(style="color: white")
-              h3.mb-1.texto-blanco Documento
-              p.text-small.texto-blanco Registro De Información Tributaria RIT
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 </template>
 
 <script>
@@ -207,7 +203,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -235,7 +231,7 @@ export default {
       position: absolute
       width: 433px
       height: 75px
-      background-color: #B3DDFF
+      background-color: #d7e2fa
       bottom: -5px
       right: 0
       z-index: 0
@@ -244,7 +240,7 @@ export default {
       position: absolute
       width: 273px
       height: 75px
-      background-color: #B3DDFF
+      background-color: #d7e2fa
       top: -23px
       left: 0
       z-index: 0
@@ -264,8 +260,8 @@ export default {
     width: 100%
     text-align: center
     p
-      background-color: #0754FF
-      color: white
+      background-color: #d7e2fa
+      font-weight: bold
       padding: 1rem 4rem
       text-align: left
     @media (max-width: 768px)
@@ -281,7 +277,7 @@ export default {
     left: 4rem
     height: 0
     width: 0
-    border-top: 37px solid #0754FF
+    border-top: 37px solid #d7e2fa
     border-left: 62.5px solid transparent
     border-right: 62.5px solid transparent
 .tarjeta-flip__contenedor
@@ -289,6 +285,7 @@ export default {
   .tarjeta-flip__img
     background-size: 224px
     background-repeat: no-repeat
+    cursor: pointer
   .tarjeta-flip__contenido
     display: flex
     align-items: center
@@ -360,4 +357,22 @@ export default {
     border-bottom: 1px solid #AFAFAF
     tr td.have-border
       border-right: 1px solid #AFAFAF
+.container-text-arrow
+  display: flex
+  align-items: center
+  margin-bottom: 3rem
+  img
+    max-width: 36px
+    max-height: 41px
+    min-height: 41px
+@media (max-width: 768px)
+  .container-text-arrow
+    align-items: start
+    img
+      margin-top: 3rem
+      max-width: 35px
+      max-height: 62px
+      min-height: 62px
+  br
+    display: none
 </style>

@@ -43,6 +43,4 @@ export default {
     background-color: #ffa726
     span
       color: white
-.banner-interno__fondo
-  background: linear-gradient(#0F2771, #2C6AE7) !important
 </style>
