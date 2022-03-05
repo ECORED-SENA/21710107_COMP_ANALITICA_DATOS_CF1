@@ -61,7 +61,7 @@
       div
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); width: 36px")
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); margin-top: -5px")
-      p.d-block.text-center Una red de datos se compone de varias partes clave, como los terminales de datos (por ejemplo, ordenadores personales), el cableado de acceso y los nodos de distribución de datos (por ejemplo, enrutadores y conmutadores), adaptadores de red, cableado de acceso y nodos de distribución de datos (por ejemplo, enrutadores, brouters y switches). Los sistemas de gestión/control de la red se utilizan para configurar, supervisar, coordinar y controlar los elementos de la red.
+      p.d-block.text-center Una red de datos se compone de varias partes clave, como los terminales de datos (por ejemplo, ordenadores personales), el cableado de acceso y los nodos de distribución de datos (por ejemplo, enrutadores y conmutadores), adaptadores de red, cableado de acceso y nodos de distribución de datos (por ejemplo, enrutadores, <em>brouters</em> y <em>switches</em>). Los sistemas de gestión/control de la red se utilizan para configurar, supervisar, coordinar y controlar los elementos de la red.
 
     .col-12.col-md-11.mb-5
       img(src="@/assets/curso/tema3/img_t_3-4.png")
@@ -159,7 +159,7 @@
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); width: 36px")
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); margin-top: -5px")
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); margin-top: -5px")
-      p.d-block El empalme físico en el que se fundamentan dichos tipos de redes puede manifestarse mediante cables o implementarse  con tecnología inalámbrica. Comúnmente, las redes físicas componen la base para algunas redes lógicas de comunicación, denominadas Virtual Private Networks (VPN). Se usan para la transmisión de datos, a través de medios como la fibra óptica, y se vinculan de manera lógica a diversos tipos de redes virtuales mediante un programa o software. <br>
+      p.d-block El empalme físico en el que se fundamentan dichos tipos de redes puede manifestarse mediante cables o implementarse  con tecnología inalámbrica. Comúnmente, las redes físicas componen la base para algunas redes lógicas de comunicación, denominadas Virtual Private Networks (VPN). Se usan para la transmisión de datos, a través de medios como la fibra óptica, y se vinculan de manera lógica a diversos tipos de redes virtuales mediante un programa o <em>software</em>. <br>
         | Cada uno de los diferentes tipos de redes está diseñado para ámbitos de aplicación particulares, se basan en técnicas y estándares propios y plantean ventajas y restricciones variadas.
 </template>
 

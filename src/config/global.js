@@ -30,15 +30,15 @@ export default {
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '1',
-            titulo: 'Análisis de datos ',
-            hash: 't_1',
+            numero: '1.1',
+            titulo: 'Información',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Información ',
-            hash: 't_1_1',
+            numero: '1.2',
+            titulo: 'Registro de datos ',
+            hash: 't_1_2',
           },
         ],
       },
@@ -81,9 +81,30 @@ export default {
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Características de redes de datos',
-            hash: 't_3_1',
+            numero: '4.1',
+            titulo: 'Proceso documental',
+            hash: 't_4_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Herramientas tecnológicas',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Características de las herramientas tecnológicas',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Tipos y usos de software para análisis de datos',
+            hash: 't_5_2',
           },
         ],
       },
@@ -130,31 +151,85 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Bansal, S. (s. f.). What is the Difference Between Data And Information? AnalytixLabs.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.analytixlabs.co.in/blog/difference-between-data-and-information/',
+    },
+    {
+      referencia:
+        'Ballou, R. (2004). Logística: administración de la cadena de suministro. Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pantaleo, G. y Rinaudo, L. (2018). Ingeniería de Software. Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sommerville, I. (2011). Ingeniería de Software. Pearson Educación.',
+      link:
+        'https://sistemamid.com/panel/uploads/biblioteca/2018-06-11_03-37-12144643.pdf',
+    },
+    {
+      referencia:
+        'Comunidad Baratz. (2021). Los 7 procesos de la gestión documental en empresas y organizaciones.',
+      link:
+        'https://www.comunidadbaratz.com/blog/los-7-procesos-de-la-gestion-documental-en-empresas-y-organizaciones/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Automatización',
+      significado:
+        'Proceso en el cual se utilizan herramientas tecnológicas con necesidad mínima de recurso humano.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Caso de uso',
+      significado:
+        'Es una herramienta en la cual se define un flujo con una serie de secuencias que dan paso a un resultado de valor observable.',
+    },
+    {
+      termino: 'Data',
+      significado:
+        'Término usado para detallar un alto volumen de datos, de manera organizada, para el manejo de diferentes procesos dentro de la organización.',
+    },
+    {
+      termino: 'Defecto',
+      significado:
+        'Problema encontrado en un sistema que causa que este falle cuando desempeña funciones requeridas.',
+    },
+    {
+      termino: 'Red',
+      significado:
+        'Se refiere a un grupo de sistemas informáticos autónomos, unidos de forma que se posibilita un intercambio de datos, para lo cual se necesita un vínculo físico y una conexión lógica de los sistemas.',
+    },
+    {
+      termino: 'Redes de datos',
+      significado:
+        'Sistemas de comunicación que se instalan y operan exclusivamente para la transferencia de información entre dispositivos de comunicación de datos (como los ordenadores). Conjunto asociado para manejo de información.',
+    },
+    {
+      termino: 'Registro',
+      significado:
+        'Grupo de datos  de  información con cierta correlación para un fin.',
     },
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'formato registro de datos',
+      tipo: 'Formulario ',
+      link: 'https://www.shd.gov.co/shd/node/28582',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'manejo Excel',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=FCLmYmzJkWs',
+    },
+    {
+      texto: 'Tratamiento de datos personales',
+      tipo: 'guía ',
+      link: 'https://issuu.com/quioscosic/docs/guia_cloud_computing_2021',
     },
   ],
   creditos: {

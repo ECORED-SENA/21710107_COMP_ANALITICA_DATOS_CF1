@@ -28,7 +28,7 @@
             p.mb-0 Muchas empresas manejan información de alto riesgo, que debe mantenerse segura y privada, o a la que se debe acceder rápidamente. En estos casos, un sistema de gestión de documentos que funcione bien es esencial. Pero incluso si su negocio es de naturaleza más informal, sigue siendo importante mantener registros adecuados para la contabilidad y en aras de la eficiencia.
 
     .cajon-b.color-primario
-      p En la actualidad, la mayoría de las empresas trabajan cómodamente con documentos digitales y utilizan programas con funciones de almacenamiento y gestión. No faltan programas de gestión de documentos generales y específicos del sector ni aplicaciones diseñadas específicamente para mejorar la gestión de los archivos electrónicos de su empresa.  Por ejemplo, es posible que los hoteles sigan teniendo un registro tipo libro en el momento del check-in y que sigan pidiendo una firma en una ficha de tarjeta de crédito en papel.
+      p En la actualidad, la mayoría de las empresas trabajan cómodamente con documentos digitales y utilizan programas con funciones de almacenamiento y gestión. No faltan programas de gestión de documentos generales y específicos del sector ni aplicaciones diseñadas específicamente para mejorar la gestión de los archivos electrónicos de su empresa.  Por ejemplo, es posible que los hoteles sigan teniendo un registro tipo libro en el momento del <em>check-in</em> y que sigan pidiendo una firma en una ficha de tarjeta de crédito en papel.
         br
         br
         | Las opciones de pago como pagos seguros en línea  PSE y transferencia se utilizan cada vez más en el sector de producción y de servicios, eliminando también la necesidad de llevar la contabilidad en papel.
@@ -39,12 +39,12 @@
     .d-flex.flex-wrap.mb-5
       .col-12.col-md-3
         img(src="@/assets/curso/tema4/img_t_4-3.png")
-      .col-12.col-md-9.container-text-bloque-b
+      .col-12.col-md-9.container-text-bloque-b.h-auto
         .cajon-b.color-primario
           p Una solución al problema de un entorno de datos mixtos sería utilizar un sistema de digitalización de documentos para convertir todos los documentos de su empresa en archivos electrónicos. Dependiendo del tipo de datos y documentos con los que se trabaje, esto podría ser un proceso relativamente sencillo o podría implicar cierta creatividad y enfoques especializados.
             br
             br
-            | Por ejemplo, un almacén a pequeña escala, que gestiona recibos e inventarios, puede convertir los documentos en papel en hojas de cálculo digitales, con algo de trabajo adicional de introducción de datos. En cambio, un consultorio odontológico, que mantiene registros de la salud de los pacientes, la facturación, las radiografías, etc., probablemente necesitará un método más sólido para convertir sus numerosos archivos en papel a formatos digitales, como la contratación de un servicio de escaneo de documentos apropiado para la empresa o la compra de un software de escaneo capaz de transferir imágenes de alta resolución.
+            | Por ejemplo, un almacén a pequeña escala, que gestiona recibos e inventarios, puede convertir los documentos en papel en hojas de cálculo digitales, con algo de trabajo adicional de introducción de datos. En cambio, un consultorio odontológico, que mantiene registros de la salud de los pacientes, la facturación, las radiografías, etc., probablemente necesitará un método más sólido para convertir sus numerosos archivos en papel a formatos digitales, como la contratación de un servicio de escaneo de documentos apropiado para la empresa o la compra de un <em>software</em> de escaneo capaz de transferir imágenes de alta resolución.
 
     // Tema 4.1
     .titulo-segundo.color-primario
@@ -52,6 +52,63 @@
 
     .cajon.color-primario.p-4.mb-4(style="background-color: #7F0F98;")
         p(style="color: white") Tanto si se trabaja con un entorno exclusivamente digital como en un entorno híbrido, con documentos digitales y en papel, la creación de un sistema de gestión de documentos implica tres pasos:
+
+    img(src="@/assets/curso/tema4/img_t_4-4.png").col-12.col-md-11
+    p.text-center Cada uno de estos pasos se describen a continuación:
+    p.fw-bold Crear un plan de gestión de documentos.
+    p.mb-4 Crear un plan de gestiFacturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.ón de documentos.
+    p.d-flex.mb-2
+      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
+      | ¿Existen plantillas internas para algunos de sus documentos empresariales, como cartas o facturas?
+    p.d-flex.mb-2
+      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
+      | ¿Dónde se encuentran?
+    p.d-flex.mb-2
+      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
+      | ¿Existe una guía de estilo interna que deba seguirse?
+    p.d-flex.mb-2
+      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
+      | ¿Deben fecharse o sellarse los nuevos documentos?
+    p.d-flex.mb-4
+      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
+      | ¿Qué procedimientos deben seguirse para compartir o revisar los documentos?
+
+    p.mb-5 Para algunas pequeñas empresas, los únicos puntos importantes serán dónde se encuentran las plantillas de los distintos documentos empresariales y cómo utilizarlas. Pero si la creación de documentos dentro de su empresa implica que diferentes personas colaboren en ellos, los revisen o los actualicen, tendrá que dedicar algún tiempo a decidir cómo deben hacerse estos elementos, para garantizar la eficiencia y la coherencia.
+
+    .d-flex.flex-wrap.flex-md-nowrap.align-items-center
+      img(src="@/assets/curso/tema4/img_t_4-5.png").pe-0.pe-md-2.mb-5.d-none.d-md-flex
+      img(src="@/assets/curso/tema4/img_t_4-6.png").pe-0.pe-md-2.mb-4
+      img(src="@/assets/curso/tema4/img_t_4-7.png").ps-0.ps-md-4.mb-5
+    
+    p.fw-bold Poner en marcha el plan de gestión documental.
+    p.mb-4 Crear un plan de gestiFacturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.ón de documentos.
+
+    .tabla-b.color-acento-contenido.mb-5
+      .tabla-b__header(style="background-color: #88A8F1")
+        h5.mb-0 Poner en marcha el plan de gestión documental.
+      table
+        tr(style="background-color: #F6F6F6")
+          th(style="width: 208px !important")
+            img(src="@/assets/curso/tema4/img-tabla_t_4-1.png" style="max-width: 190px")
+          td
+            p Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.
+              br
+              br
+              |También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
+    .tabla-b.color-acento-contenido.mb-5
+      .tabla-b__header(style="background-color: #88A8F1")
+        h5.mb-0 Poner en marcha el plan de gestión documental.
+      table
+        tr(style="background-color: #F6F6F6")
+          th(style="width: 208px !important")
+            img(src="@/assets/curso/tema4/img-tabla_t_4-2.png" style="max-width: 190px")
+          td
+            p Compruebe periódicamente que determinados archivos pueden encontrarse fácilmente y evite que se archiven de forma incorrecta. Incluso, un descuido ocasional puede echar a perder todo el sistema.
+              br
+              br
+              | Por último, un proceso documental en un sistema de administración gana interés una vez que, al implementarse una herramienta tecnológica usada en procesos logísticos, como Enterprise Resource Planning (planificación de recursos empresariales, ERP),  posibilita vincular los datos y registros con documentos, perfeccionando la estabilidad de ingreso, y desde luego, con la probabilidad de su uso de manera remota, en tiempo real,  sobre toda su información y en cualquier instante.
+
+    
 </template>
 
 <script>

@@ -13,7 +13,7 @@
       )
       .d-flex.flex-wrap
         .bloque-texto-g__texto.py-4.px-3.px-md-5
-          p.mb-0 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un software o hardware en un equipo de cómputo, un servidor de Internet o un dispositivo. 
+          p.mb-0 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un <em>software</em> o <em>hardware</em> en un equipo de cómputo, un servidor de Internet o un dispositivo. 
           br
           br
           | Con el creciente uso de la tecnología en los tiempos modernos, hay una necesidad cada vez mayor de proporcionar soporte técnico. Muchas organizaciones ubican sus departamentos de soporte técnico o centros de llamadas en países o regiones con costes más bajos. Dell fue una de las primeras empresas en externalizar sus departamentos de soporte técnico y atención al cliente a la India, en 2004. También han aumentado las empresas especializadas en ofrecer soporte técnico a otras organizaciones.
@@ -103,27 +103,27 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-tarjeta-flip_t_2-1.png')})`}" style="background-size: contain; background-repeat: no-repeat; background-color: #719DFF")
-            .tarjeta-flip__contenido.p-4(style="background-color: #719DFF;")
+            .tarjeta-flip__contenido.p-4.flex-wrap(style="background-color: #719DFF;")
               h4.my-4 Almacenamiento en carpetas 
-              p Los datos que son  de construcción básica se almacenan en archivos y carpetas. Por lo general, se encuentran en los discos duros y significa que los archivos tienen exactamente el mismo aspecto  del disco duro  para el usuario.
+              p(style="color: black") Los datos que son  de construcción básica se almacenan en archivos y carpetas. Por lo general, se encuentran en los discos duros y significa que los archivos tienen exactamente el mismo aspecto  del disco duro  para el usuario.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-tarjeta-flip_t_2-2.png')})`}" style="background-size: contain; background-repeat: no-repeat; background-color: #33A4FF")
-            .tarjeta-flip__contenido.p-4(style="background-color: #33A4FF")
+            .tarjeta-flip__contenido.p-4.flex-wrap(style="background-color: #33A4FF")
               h4.my-4 Almacenamiento en bloques
-              p Los datos se almacenan en bloques de tamaño uniforme. Aunque es más caro, complejo y menos escalable, el almacenamiento en bloques es ideal para los datos a los que hay que acceder y editar con frecuencia.
+              p(style="color: black") Los datos se almacenan en bloques de tamaño uniforme. Aunque es más caro, complejo y menos escalable, el almacenamiento en bloques es ideal para los datos a los que hay que acceder y editar con frecuencia.
         
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-tarjeta-flip_t_2-3.png')})`}" style="background-size: contain; background-repeat: no-repeat; background-color: #8BACF5")
-            .tarjeta-flip__contenido.p-4(style="background-color: #8BACF5;")
+            .tarjeta-flip__contenido.p-4.flex-wrap(style="background-color: #8BACF5;")
               h4.my-4 Almacenamiento de objetos
-              p Los datos se almacenan como objetos, con metadatos e identificadores únicos. Aunque generalmente es menos costoso almacenar los datos de esta manera, el almacenamiento de objetos solo es ideal para los datos que no necesitan ser editados.
+              p(style="color: black") Los datos se almacenan como objetos, con metadatos e identificadores únicos. Aunque generalmente es menos costoso almacenar los datos de esta manera, el almacenamiento de objetos solo es ideal para los datos que no necesitan ser editados.
 
     .cajon-b.color-primario.p-3.mb-5.cajon-b-right
       p.mb-0 En términos sencillos, los ordenadores modernos, o terminales, se conectan a dispositivos de almacenamiento directamente o a través de una red. Los usuarios dan instrucciones a los ordenadores para que accedan a los datos desde estos dispositivos de almacenamiento y los almacenen en ellos. Sin embargo, en un nivel fundamental, hay dos bases para el almacenamiento de datos: la forma que adoptan los datos y los dispositivos en los que se registran y almacenan.
