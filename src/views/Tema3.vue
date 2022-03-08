@@ -29,7 +29,7 @@
       p.d-block.text-center El uso de las redes de datos tiene una amplia gama de ventajas que vale la pena comprender antes de empezar a adoptar este enfoque. Para empezar, es útil conocer las tres principales; para ello, observe la siguiente infografía:
 
     .col-12.col-md-11.mx-auto
-      ImagenInfografica.color-primario.mb-5
+      ImagenInfografica.color-acento-botones.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema3/img_t_3-3.png')

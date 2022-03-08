@@ -28,28 +28,28 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Datos tradicionales de la empresa procedentes de los sistemas operativos
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_2.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Datos de tráfico y meteorológicos procedentes de sensores, monitores y sistemas de previsión.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_3.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Diagnósticos de vehículos, patrones de conducción e información de localización.
       
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_4.svg')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Previsiones financieras del negocio.
               
     .row.mb-5
@@ -57,27 +57,26 @@
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_5.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Datos de respuesta publicitaria.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_6.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Datos de patrones de navegación de sitios web.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.me-auto
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_7.png')})`, 'border' : '4px solid #3D72E8'}")
-            .tarjeta-flip__contenido(style="background-color: #A6BAE6")
+            .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
               p Datos de redes sociales
     
     .container-bg
       img(src="@/assets/curso/tema1/imagen_t_1_img-1.png" style="max-width: 400px; max-height: 237px").mb-4.mb-md-0
       .container-bg-text-img
-        img(src="@/assets/curso/tema1/imagen_t_1_img-2.png").d-none.d-md-block
         p Es claro que hay muchas formas de alimentar los sistemas de datos con la información que necesitan. Todas estas fuentes de datos y casos de uso potenciales han llevado a afirmar que la tecnología de Big Data y automatización conducirá a niveles de optimización antes inimaginables en la fabricación, la logística, el almacenamiento y la entrega de última milla.
           br
           | Los Big Data pueden recopilarse a partir de comentarios compartidos públicamente en redes sociales y sitios web, recogidos voluntariamente en aparatos electrónicos y aplicaciones personales, mediante cuestionarios, compras de productos y registros electrónicos. La presencia de sensores y otras entradas en los dispositivos inteligentes permite recopilar datos en un amplio espectro de situaciones y circunstancias. En cualquier caso, parece que el futuro es brillante para las empresas de logística que estén dispuestas a aprovechar el Big Data
@@ -102,7 +101,7 @@
     .container_t_1_ad
       .pe-4.mb-auto.mb-md-0
         img(src="@/assets/curso/tema1/icono_t_1-2.svg" style="height: 50px")
-      p(style="background-color: #A6BAE6") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
+      p(style="background-color: #A6BAE6; color: black") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
         br
         br
         |En el cuadro que se comparte, se presentan algunos elementos que permiten reconocer los datos, la información y el conocimiento. 
@@ -293,21 +292,21 @@ export default {
     padding-right: 2rem
     padding-left: 2rem
     text-align: center
-    p
-      color: white
 .container-bg
   display: flex
   margin-bottom: 3rem
   .container-bg-text-img
     position: relative
     padding-left: 1rem
-    overflow-x: hidden
-    img
-      position: absolute
-      bottom: 0
-      z-z-index: 0
     p
       position: relative
+    &::after
+      content: ''
+      position: absolute
+      width: 250px
+      height: 3px
+      right: 0
+      background: linear-gradient(90deg, rgba(151,157,158,1) 66%, rgba(151,157,158,1) 66%, rgba(127,15,152,1) 66%)
 @media (max-width: 768px)
   .container-bg
     flex-wrap: wrap

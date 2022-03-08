@@ -27,7 +27,7 @@
           .bloque-texto-g__texto.py-4.py-md-5.px-3.px-md-5
             p.mb-0 Muchas empresas manejan información de alto riesgo, que debe mantenerse segura y privada, o a la que se debe acceder rápidamente. En estos casos, un sistema de gestión de documentos que funcione bien es esencial. Pero incluso si su negocio es de naturaleza más informal, sigue siendo importante mantener registros adecuados para la contabilidad y en aras de la eficiencia.
 
-    .cajon-b.color-primario
+    .cajon-b.color-primario.color-bg-text
       p En la actualidad, la mayoría de las empresas trabajan cómodamente con documentos digitales y utilizan programas con funciones de almacenamiento y gestión. No faltan programas de gestión de documentos generales y específicos del sector ni aplicaciones diseñadas específicamente para mejorar la gestión de los archivos electrónicos de su empresa.  Por ejemplo, es posible que los hoteles sigan teniendo un registro tipo libro en el momento del <em>check-in</em> y que sigan pidiendo una firma en una ficha de tarjeta de crédito en papel.
         br
         br
@@ -40,7 +40,7 @@
       .col-12.col-md-3
         img(src="@/assets/curso/tema4/img_t_4-3.png")
       .col-12.col-md-9.container-text-bloque-b.h-auto
-        .cajon-b.color-primario
+        .cajon-b.color-primario.color-bg-text
           p Una solución al problema de un entorno de datos mixtos sería utilizar un sistema de digitalización de documentos para convertir todos los documentos de su empresa en archivos electrónicos. Dependiendo del tipo de datos y documentos con los que se trabaje, esto podría ser un proceso relativamente sencillo o podría implicar cierta creatividad y enfoques especializados.
             br
             br
@@ -207,4 +207,7 @@ export default {
         background-color: #7F0F98
   .container-bloque-texto_t_4-2
     padding-left: 1rem !important
+.color-bg-text
+  &::before
+    height: auto !important
 </style>

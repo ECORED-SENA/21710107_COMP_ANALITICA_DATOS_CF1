@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     p.mb-4 Para dar comienzo al desarrollo de este componente formativo, se comparten algunos elementos que permiten adentrarse en las temáticas principales en la siguiente infografía:
-    ImagenInfografica.color-primario
+    ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/introduccion/img-introduccion.png', alt='elementos del componente formativo')

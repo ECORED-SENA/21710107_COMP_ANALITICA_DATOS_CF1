@@ -86,7 +86,7 @@
         p Por ejemplo, el monitor del ordenador que está utilizando para leer este texto y el ratón que está utilizando para navegar por esta página web son <em>hardware</em> informático. El navegador de Internet que le permite ver esta página y el sistema operativo en el que se ejecuta el navegador se consideran software. Una tarjeta de video es <em>hardware</em>, y un juego de ordenador es software. Se puede tocar y sentir la tarjeta de video, y el ordenador la utiliza para desplegar un juego de ordenador, pero no se puede tocar ni sentir el código de programación que compone el juego de ordenador.
     p.mb-5 Los programas de aplicación que ayudan a los usuarios en las tareas habituales de oficina, como la creación, actualización y mantenimiento de documentos, el manejo de grandes cantidades de datos, la creación de presentaciones, la programación, etc., se denominan herramientas ofimáticas. El uso de herramientas ofimáticas ahorra tiempo y esfuerzo y permite realizar fácilmente muchas tareas repetitivas. Algunos de los programas que hacen esto son:
 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5.tabs-a_t_5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Procesador de texto")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-1.png" style="max-width: 53px; max-height: 70px").me-4.mb-4
@@ -168,7 +168,7 @@
       .container-text-bloque-b.h-auto
         .cajon-b.color-primario
           p.ps-0.ps-md-4 Microsoft Office 365, Google G Suite, Zoho Workplace, Apple iWork, Quip y LibreOffice son los principales actores de la suite ofimática actual. ¿Qué conjunto de herramientas debería utilizar? Es posible que ya tenga una suite ofimática más antigua y se pregunte si debería pasarse a Office 365, o si las herramientas de G Suite de su cuenta de Gmail son suficientes. O tal vez esté tratando de decidir qué suite implementar en su equipo.<br><br><br>	Se espera que los temas de este componente de formación, en su estudio, le ayudará a ampliar conocimientos  de análisis de datos,  manejo de la información y formas de hacer registros; a identificar  características del almacenamiento de la información y el tratamiento de manera competente; la importancia de los diferentes tipos de  redes de datos; los sistemas de gestión documental; además, la aplicación de herramientas tecnológicas en los diferentes procesos logísticos y comerciales de las empresas. 
-    img(src="@/assets/curso/tema5/img_t_5-5.png")
+    
 </template>
 
 <script>
@@ -228,4 +228,8 @@ export default {
       left: 55%
       right: 0
       bottom: 0
+.tabs-a_t_5
+  .tabs-a__tab__selected
+    .tabs-a__tab__text
+      color: white
 </style>
