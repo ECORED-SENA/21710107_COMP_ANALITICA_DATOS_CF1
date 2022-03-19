@@ -7,7 +7,7 @@
         span 5
       h1 Herramientas tecnológicas
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.img-text-imagen-1
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.img-text-imagen-1
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img_t_5-1.png')})`}"
       )
@@ -33,14 +33,14 @@
           img(src='@/assets/curso/tema5/img_t_5-2.png')
 
       div(x="20%" y="15%" tooltip="Sistema ERP (Enterprise Resource Planning)" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p <b>ERP</b> La planificación de recursos empresariales es un proceso utilizado por las empresas para gestionar e integrar las partes importantes de sus negocios. Muchas aplicaciones de <em>software</em> ERP son importantes para las empresas, porque les ayudan a implementar la planificación de recursos integrando todos los procesos necesarios para dirigir sus empresas con un único sistema. Un sistema de <em>software</em> ERP también puede integrar la planificación, el inventario de compras, las ventas, el marketing, las finanzas, los recursos humanos, entre otros.
+        p <b>ERP:</b> la planificación de recursos empresariales es un proceso utilizado por las empresas para gestionar e integrar las partes importantes de sus negocios. Muchas aplicaciones de <em>software</em> ERP son importantes para las empresas, porque les ayudan a implementar la planificación de recursos integrando todos los procesos necesarios para dirigir sus empresas con un único sistema. Un sistema de <em>software</em> ERP también puede integrar la planificación, el inventario de compras, las ventas, el marketing, las finanzas, los recursos humanos, entre otros.
       div(x="45%" y="15%" tooltip="CRM (Customer Relationship Management)" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p <b>CRM</b> Se puede traducir al español como Gestión de las Relaciones con los Clientes y se refiere a todas las estrategias, técnicas, herramientas y tecnologías utilizadas por las empresas para desarrollar, retener y adquirir clientes.
+        p <b>CRM:</b> se puede traducir al español como Gestión de las Relaciones con los Clientes y se refiere a todas las estrategias, técnicas, herramientas y tecnologías utilizadas por las empresas para desarrollar, retener y adquirir clientes.
           | Este <em>software</em> garantiza que cada paso de la interacción con los consumidores se desarrolle de forma fluida y eficaz, para aumentar los beneficios globales. El <em>software</em> recopila datos de los clientes, procedentes de múltiples canales. Por lo tanto, el CRM almacena información detallada sobre el historial general de compras, información personal e incluso patrones de comportamiento de compra.
-      div(x="68%" y="15%" tooltip="CRM (Customer Relationship Management)" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p <b>BI</b> La inteligencia empresarial se refiere a la infraestructura técnica y de procedimiento que recoge, almacena y analiza los datos producidos por las actividades de una empresa. BI es un término amplio, que engloba la extracción de datos, el análisis de procesos, la evaluación comparativa del rendimiento y el análisis descriptivo. La BI analiza todos los datos generados por una empresa y presenta informes fáciles de digerir, medidas de rendimiento y tendencias que informan las decisiones de gestión.
+      div(x="68%" y="15%" tooltip="Herramientas de BI - Business Intelligence" numero="+").modal-tipo-modal-1.p-3.p-md-4
+        p <b>BI:</b> la inteligencia empresarial se refiere a la infraestructura técnica y de procedimiento que recoge, almacena y analiza los datos producidos por las actividades de una empresa. BI es un término amplio, que engloba la extracción de datos, el análisis de procesos, la evaluación comparativa del rendimiento y el análisis descriptivo. La BI analiza todos los datos generados por una empresa y presenta informes fáciles de digerir, medidas de rendimiento y tendencias que informan las decisiones de gestión.
       div(x="92%" y="15%" tooltip="Tecnología Workflow o BPM" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p <b>BPM</b> La Gestión de Procesos Empresariales es una forma de observar y luego controlar los procesos presentes en una organización. Es una metodología eficaz, que se utiliza en tiempos de crisis para asegurarse de que los procesos son eficientes y eficaces, ya que esto dará lugar a una organización mejor y más rentable.
+        p <b>BPM:</b> la Gestión de Procesos Empresariales es una forma de observar y luego controlar los procesos presentes en una organización. Es una metodología eficaz, que se utiliza en tiempos de crisis para asegurarse de que los procesos son eficientes y eficaces, ya que esto dará lugar a una organización mejor y más rentable.
           br
           br
           | El término Gestión de Procesos Empresariales abarca la forma de estudiar, identificar, cambiar y supervisar los procesos empresariales, para garantizar que funcionen sin problemas y puedan mejorarse con el tiempo. A menudo, se enmarca en términos de flujo de trabajo diario -y sí, el "flujo de trabajo" generalmente encaja en el paraguas de la mejora de procesos-, que es una pieza importante en el rompecabezas del acceso y el uso, ya que un proceso deficiente realmente degrada la capacidad para obtener y aprovechar la información.
@@ -48,7 +48,7 @@
           br
           |La mejor manera de considerar el BPM es como una práctica empresarial que abarca técnicas y métodos estructurados. No es una tecnología, aunque hay tecnologías en el mercado que permiten identificar y modificar los procesos existentes, para que se alineen con un estado de cosas futuro deseado, presumiblemente mejorado. Se trata de formalizar e institucionalizar mejores formas de hacer el trabajo.
       div(x="20%" y="58%" tooltip="Sistema de Administración de Almacenes -WMS" numero="+").modal-tipo-modal-2.p-3.p-md-4
-        p <b>SGA</b> Un Sistema de Gestión de Almacenes ofrece un conjunto de funciones y servicios que abordan un conjunto completo de operaciones de almacén. Aunque cada SGA puede proporcionar diferentes servicios de nivel secundario, las características principales de un SGA se centran en la gestión del inventario. Un SGA típico puede ofrecer funciones como la gestión de los registros de inventario, los detalles de los envíos de inventario, la ubicación de las existencias dentro del almacén y la gestión de la capacidad general del almacén. El SGA suele formar parte de una solución de <em>software</em> de planificación de recursos empresariales (ERP), pero también puede ser una aplicación independiente. Además, un SGA suele integrarse directamente con otros sistemas de información, como el sistema de gestión de la cadena de suministro, el sistema de información de producción/fabricación y los sistemas de información de ventas.
+        p <b>SGA:</b> un Sistema de Gestión de Almacenes ofrece un conjunto de funciones y servicios que abordan un conjunto completo de operaciones de almacén. Aunque cada SGA puede proporcionar diferentes servicios de nivel secundario, las características principales de un SGA se centran en la gestión del inventario. Un SGA típico puede ofrecer funciones como la gestión de los registros de inventario, los detalles de los envíos de inventario, la ubicación de las existencias dentro del almacén y la gestión de la capacidad general del almacén. El SGA suele formar parte de una solución de <em>software</em> de planificación de recursos empresariales (ERP), pero también puede ser una aplicación independiente. Además, un SGA suele integrarse directamente con otros sistemas de información, como el sistema de gestión de la cadena de suministro, el sistema de información de producción/fabricación y los sistemas de información de ventas.
       div(x="45%" y="58%" tooltip="Facturación electrónica" numero="+").modal-tipo-modal-2.p-3.p-md-4
         p <b>La facturación electrónica</b>, o el pago y la presentación de facturas electrónicas, es cuando un vendedor, una empresa, una organización o un grupo envía sus cuentas o facturas a través de Internet, y los clientes pagan las facturas electrónicamente. Esto sustituye el método tradicional, en el que las facturas se enviaban en papel y los pagos se hacían por medios manuales, como el envío de cheques.
           br
@@ -109,11 +109,11 @@
             br
             | Añadir cabeceras y pies de página, establecer márgenes de página e insertar marcas de agua.
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Hoja de calculo.")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Hoja de calculo")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-2.png" style="max-width: 53px; max-height: 70px").me-4.mb-4
           p.d-block
-            b Hoja de calculo.
+            b Hoja de calculo
             br
             | La hoja de cálculo es un <em>software</em> que ayuda a los usuarios a procesar y analizar datos tabulares. Es una herramienta informática de contabilidad. Los datos se introducen siempre en una celda (intersección de una fila y una columna), y es fácil disponer de fórmulas y funciones para procesar un grupo de celdas. 
             br
@@ -136,34 +136,34 @@
             br
             | Cálculos basados en comparaciones lógicas.
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Sistemas de bases de datos: ")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Sistemas de bases de datos")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-3.png" style="max-width: 53px; max-height: 70px").me-4.mb-4
           p.d-block
-            b Sistemas de bases de datos: 
+            b Sistemas de bases de datos
             br
             | El <em>software</em> que gestiona el almacenamiento, la actualización y la recuperación de datos mediante la creación de bases de datos se denomina sistema de gestión de bases de datos. Algunas herramientas populares de gestión de bases de datos son MS-Access, MySQL, Oracle, FoxPro, etc.
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Software de presentación:")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Software de presentación")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-4.png" style="max-width: 53px; max-height: 70px").me-4.mb-4
           p.d-block
-            b Procesador de texto
+            b Software de presentación
             br
             | La herramienta de presentación permite al usuario mostrar información desglosada en pequeños fragmentos y dispuesta en páginas denominadas diapositivas. Una serie de diapositivas que presentan una idea coherente a un público se denomina presentación. Las diapositivas pueden tener texto, imágenes, tablas, audio, video u otra información multimedia. MS-PowerPoint, OpenOffice Impress, Lotus Freelance, etc., son algunas de las herramientas de presentación más populares.
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Herramientas de correo electrónico: ")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Herramientas de correo electrónico")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-5.png" style="max-width: 70px; min-height: 38px").me-4.mb-4
           p.d-block
-            b Herramientas de correo electrónico: 
+            b Herramientas de correo electrónico
             br
             | son herramientas que las empresas utilizan para crear, enviar, probar, optimizar e informar sobre sus campañas de correo electrónico. Una de las herramientas de <em>marketing</em> por correo electrónico más comunes es un proveedor de servicios de correo electrónico, o ESP, como Campaign Monitor. Campaign Monitor permite a las empresas crear hermosos correos electrónicos, crear recorridos automatizados y entregar mensajes personalizados, que mejoran la relación con los clientes.
 
-    .cajon-b.color-primario.mb-5
+    .cajon-b.color-primario.mb-5.other-color
       p Documentos, hojas de cálculo, presentaciones y notas: son los archivos que hacen que el trabajo funcione, que muestran un nuevo proyecto y el rendimiento de un espacio de tiempo, así como las ideas para el futuro. Son una parte tan crucial de la informática que, hoy en día, es difícil imaginar un ordenador sin un paquete ofimático. <br><br><br> Durante años -incluso décadas- eso significaba que era difícil imaginar un ordenador sin Microsoft Office. Hoy en día, es fácil si lo intentamos. Office tiene más y mejores competidores que nunca, al mismo que cambian las características que se requiere de las herramientas ofimáticas, cosas como la colaboración, el acceso <em>offline</em> y <em>online</em>, y la compatibilidad con múltiples dispositivos
     
-    .container-text-arrow.flex-wrap.flex-md-nowrap.pt-0.pt-md-5
+    .container-text-arrow.flex-wrap.flex-md-nowrap.pt-0.pt-md-5.other-color
       img(src="@/assets/curso/tema5/img_t_5-4.png" style="max-width: 278px; max-height: 270px").mb-4
       .container-text-bloque-b.h-auto
         .cajon-b.color-primario
@@ -189,9 +189,10 @@ export default {
 </script>
 <style lang="sass">
 .img-text-imagen-1
-  min-height: 374px
+  min-height: 312px
+  margin-bottom: 70px
   .bloque-texto-g__img
-    min-height: 430px
+    min-height: 376px
 @media (max-width: 768px)
   .img-text-imagen-1
     min-height: auto
@@ -232,4 +233,9 @@ export default {
   .tabs-a__tab__selected
     .tabs-a__tab__text
       color: white
+.other-color
+  .cajon-b.color-primario:before
+    background-color: #DFC2E5
+.other-color.cajon-b.color-primario:before
+  background-color: #DFC2E5
 </style>

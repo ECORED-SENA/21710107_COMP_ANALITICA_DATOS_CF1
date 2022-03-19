@@ -17,12 +17,12 @@
     .col-12.col-md-10.mx-auto.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema3/img_t_3-2.png')})`}"
-          style="background-position-x: inherit; width: "
+          :style="{'background-image': `url(${require('@/assets/curso/tema3/img_t_3-2.svg')})`}"
+          style="background-position-x: left; background-size: auto; background-repeat: no-repeat; background-color: #E2DDE4;"
         )
         .d-flex.flex-wrap.justify-content-end
-          .bloque-texto-g__texto.py-4.py-md-5.px-3.px-md-5
-            p.mb-0 ¿Cómo funciona? En general, las redes de datos se definen por su capacidad de transmitir señales mediante la conmutación de paquetes. El mensaje de datos se descompone en bits discretos, llamados paquetes, y estos paquetes se envían por una red digital que utiliza una ruta óptima para minimizar el retraso en la velocidad de la red de datos. Una vez transmitidos, los paquetes de datos se vuelven a ensamblar cuando llegan al destino
+          .bloque-texto-g__texto.py-4.py-md-5.px-3.ps-md-5
+            p.mb-0 ¿Cómo funciona? En general, las redes de datos se definen por su capacidad de transmitir señales mediante la conmutación de paquetes. El mensaje de datos se descompone en bits discretos, llamados paquetes, y estos paquetes se envían por una red digital que utiliza una ruta óptima para minimizar el retraso en la velocidad de la red de datos. Una vez transmitidos, los paquetes de datos se vuelven a ensamblar cuando llegan al destino.
 
     .container-text-arrow.pe-0
       img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg)")
@@ -82,17 +82,21 @@
           p.fw-bold Comunicación dúplex 
           p También puede funcionar en modo full-duplex o half-duplex. En el modo full-duplex, tanto el emisor como el receptor trabajan simultáneamente. En el modo half-duplex, solo uno puede funcionar a la vez.
         img(src="@/assets/curso/tema3/img_t_3-6.png" style="max-width: 409px")
-
-    .container-text-arrow.pe-0.mb-3
-      p.d-block.pe-4.mb-0 Una vez que se genera una incidencia, se traslada a un técnico, de acuerdo con el tipo o nivel de incidencia en el caso concreto, y se asigna de manera directa; dicho técnico diagnostica el problema, identificando la causa que lo genera, y trata de resolverlo. En caso de conseguirlo, se cierra la incidencia como solucionada. Si el problema no se puede solucionar, se pasa al siguiente grado de soporte, para que se encargue de esa incidencia, contando con la información aportada por el grado inferior.
-      img(src="@/assets/curso/introduccion/arrow-text.svg").ms-4.me-auto(style="filter: rotate(222deg);").me-auto
+    
+    //- .container-text-arrow.pe-0.mb-3
+    //-   p.d-block.pe-4.mb-0 Una vez que se genera una incidencia, se traslada a un técnico, de acuerdo con el tipo o nivel de incidencia en el caso concreto, y se asigna de manera directa; dicho técnico diagnostica el problema, identificando la causa que lo genera, y trata de resolverlo. En caso de conseguirlo, se cierra la incidencia como solucionada. Si el problema no se puede solucionar, se pasa al siguiente grado de soporte, para que se encargue de esa incidencia, contando con la información aportada por el grado inferior.
+    //-   img(src="@/assets/curso/introduccion/arrow-text.svg").ms-4.me-auto(style="filter: rotate(222deg);").me-auto
     
     .cajon-b.color-primario.p-3.mb-5.cajon-b-left_t_3
-      p.mb-0 El almacenamiento de datos se refiere al uso de medios de grabación para conservar los datos, mediante ordenadores u otros dispositivos. Las formas más frecuentes de almacenamiento de datos son el almacenamiento de archivos, el almacenamiento de bloques y el almacenamiento de objetos, siendo cada uno de ellos ideal para diferentes fines.
+      p.mb-0 Los avances e innovaciones en la tecnología de las redes de datos han hecho evolucionar continuamente la forma de transmitir y recibir datos. Las redes de datos actuales son una verdadera hazaña de ingenio: van desde simples conexiones individuales hasta sistemas increíblemente complejos de enrutadores, conmutadores y concentradores de red.
+    
+    //- .container-text-arrow.pe-0
+    //-   img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg)")
+    //-   p.d-block.text-center El uso de las redes de datos tiene una amplia gama de ventajas que vale la pena comprender antes de empezar a adoptar este enfoque. Para empezar, es útil conocer las tres principales; para ello, observe la siguiente infografía:
 
-    .container-text-arrow.pe-0
-      img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg)")
-      p.d-block.text-center El uso de las redes de datos tiene una amplia gama de ventajas que vale la pena comprender antes de empezar a adoptar este enfoque. Para empezar, es útil conocer las tres principales; para ello, observe la siguiente infografía:
+    // Tema #3.2
+    .titulo-segundo.color-primario
+      h2#t_3_2 3.2 Tipos y usos de redes de datos
 
     .container-card-img-left-r.mb-4
       .text-card-img
@@ -119,7 +123,7 @@
         span WAN
       .content-card-img
         img(src="@/assets/curso/tema3/decorador-card-img-1.svg" style="max-width: 100px")
-        p <b>WAN (red de área amplia) -</b> Sin límite. Es una red que existe en un área geográfica a gran escala. Una WAN conecta diferentes redes más pequeñas, incluidas las redes de área local (LAN) y las redes de área metropolitana (MAN). Esto garantiza que los ordenadores y usuarios de un lugar puedan comunicarse con los de otros lugares. La implementación de la WAN puede hacerse con la ayuda del sistema público de transmisión o de una red privada.
+        p <b>WAN (red de área amplia) - Sin límite</b>. Es una red que existe en un área geográfica a gran escala. Una WAN conecta diferentes redes más pequeñas, incluidas las redes de área local (LAN) y las redes de área metropolitana (MAN). Esto garantiza que los ordenadores y usuarios de un lugar puedan comunicarse con los de otros lugares. La implementación de la WAN puede hacerse con la ayuda del sistema público de transmisión o de una red privada.
         img(src="@/assets/curso/tema3/decorador-card-img-2.svg" style="max-width: 44px").ms-auto
       .img-card-img
         img(src="@/assets/curso/tema3/img-card-3.png")

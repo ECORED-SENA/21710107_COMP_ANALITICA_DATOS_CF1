@@ -27,59 +27,60 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Datos tradicionales de la empresa procedentes de los sistemas operativos
+              p.fw-bold Datos tradicionales de la empresa procedentes de los sistemas operativos
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_2.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_2.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Datos de tráfico y meteorológicos procedentes de sensores, monitores y sistemas de previsión.
+              p.fw-bold Datos de tráfico y meteorológicos procedentes de sensores, monitores y sistemas de previsión.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_3.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_3.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Diagnósticos de vehículos, patrones de conducción e información de localización.
+              p.fw-bold Diagnósticos de vehículos, patrones de conducción e información de localización.
       
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_4.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Previsiones financieras del negocio.
+              p.fw-bold Previsiones financieras del negocio.
               
     .row.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.ms-auto
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_5.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_5.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Datos de respuesta publicitaria.
+              p.fw-bold Datos de respuesta publicitaria.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_6.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_6.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Datos de patrones de navegación de sitios web.
+              p.fw-bold Datos de patrones de navegación de sitios web.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.me-auto
         .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_7.png')})`, 'border' : '4px solid #3D72E8'}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_7.svg')})`, 'border' : '4px solid #3D72E8'}")
             .tarjeta-flip__contenido(style="background-color: #A6BAE6; border: 4px solid #3D72E8;")
-              p Datos de redes sociales
+              p.fw-bold Datos de redes sociales
     
     .container-bg
       img(src="@/assets/curso/tema1/imagen_t_1_img-1.png" style="max-width: 400px; max-height: 237px").mb-4.mb-md-0
       .container-bg-text-img
         p Es claro que hay muchas formas de alimentar los sistemas de datos con la información que necesitan. Todas estas fuentes de datos y casos de uso potenciales han llevado a afirmar que la tecnología de Big Data y automatización conducirá a niveles de optimización antes inimaginables en la fabricación, la logística, el almacenamiento y la entrega de última milla.
           br
-          | Los Big Data pueden recopilarse a partir de comentarios compartidos públicamente en redes sociales y sitios web, recogidos voluntariamente en aparatos electrónicos y aplicaciones personales, mediante cuestionarios, compras de productos y registros electrónicos. La presencia de sensores y otras entradas en los dispositivos inteligentes permite recopilar datos en un amplio espectro de situaciones y circunstancias. En cualquier caso, parece que el futuro es brillante para las empresas de logística que estén dispuestas a aprovechar el Big Data
+          br
+          | Los Big Data pueden recopilarse a partir de comentarios compartidos públicamente en redes sociales y sitios web, recogidos voluntariamente en aparatos electrónicos y aplicaciones personales, mediante cuestionarios, compras de productos y registros electrónicos. La presencia de sensores y otras entradas en los dispositivos inteligentes permite recopilar datos en un amplio espectro de situaciones y circunstancias. En cualquier caso, parece que el futuro es brillante para las empresas de logística que estén dispuestas a aprovechar el Big Data.
 
     // Tema #1
     .titulo-segundo.color-acento-contenido
@@ -89,12 +90,12 @@
       .pe-4.mb-auto.mb-md-0
         img(src="@/assets/curso/tema1/icono_t_1.svg" style="height: 50px")
         img(src="@/assets/curso/tema1/icono_t_1.svg" style="height: 50px").mt-3
-      p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.<br> es fundamental, ya que procesa los datos a través de la inteligencia intencionada para interpretar, predecir o explicar.
+      p La información son datos cotejados para derivar inferencias significativas según su requisito contextual, que se estructura, procesa y presenta con un significado asignado que mejora la fiabilidad de los datos adquiridos, garantizando que no haya incertidumbre y que sean pertinentes.
         br
         br
-        | En esencia, la información existe para sistematizar datos relevantes y oportunos para presentar o desarrollar ideas. A diferencia de los datos, la <br>información es fundamental, ya que procesa los datos a través de la inteligencia intencionada para interpretar, predecir o explicar.
+        | En esencia, la información existe para sistematizar datos relevantes y oportunos para presentar o desarrollar ideas. A diferencia de los datos, la información es fundamental, ya que procesa los datos a través de la inteligencia intencionada para interpretar, predecir o explicar.
 
-    p.col-12.col-md-11.ms-auto El Big Data en logística requiere una gran cantidad de fuentes de información de alta calidad para funcionar eficazmente. ¿De dónde van a salir todos esos datos? A continuación, se relaciona una amplia selección de posibles fuentes de datos, entre las que se incluyen:
+    p.col-12.col-md-11.ms-auto En el siguiente esquema, se comparte la diferencia entre datos e información:
 
     img(src="@/assets/curso/tema1/imagen_t_1-1.png").my-5
 
@@ -109,28 +110,28 @@
       .container_card_t_1.col-12.col-md-4.mx-auto.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_1.png")
         .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
-          p Información refinada, estructurada y evolucionada a partir de datos brutos listos para ser analizados
+          p.fw-bold Información refinada, estructurada y evolucionada a partir de datos brutos listos para ser analizados.
 
       .container_card_t_1.col-12.col-md-4.mx-auto.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_2.png")
         .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
-          p La información requiere ser contextualizada para convertirse en conocimiento.
+          p.fw-bold La información requiere ser contextualizada para convertirse en conocimiento.
       
       .container_card_t_1.col-12.col-md-4.mx-auto
         img(src="@/assets/curso/tema1/imagen_t_1_card_3.png")
         .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
-          p La información se refiere a un flujo de mensajes.
+          p.fw-bold La información se refiere a un flujo de mensajes.
       
     .d-flex.flex-wrap.justify-content-center.mb-5
       .container_card_t_1.col-12.col-md-4.me-0.me-md-2.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_4.png")
         .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
-          p La información son datos pero con contexto.
+          p.fw-bold La información son datos pero con contexto.
 
       .container_card_t_1.col-12.col-md-4.md-0.ms-md-2.mb-3.mb-md-0
         img(src="@/assets/curso/tema1/imagen_t_1_card_5.png")
         .d-flex.justify-content-center.align-items-center.w-100(style="background-color: #9541A8; min-height: 128px;")
-          p La información se refiere a un flujo de mensajes.
+          p.fw-bold La información tiene las cualidades de transmitir y comunicar, impactar en los juicios y en el comportamiento.
     
     p.col-12.col-md-9.mb-3 La ciencia y la tecnología de la información han ganado potencial en términos de transición tecnológica: desde los servidores hasta la nube y las bases de datos más inteligentes, los datos se procesan en un abrir y cerrar de ojos. Con la velocidad, viene la capacidad de procesar datos, incluso con unidades de <em>hardware</em> de bajo coste, como las SSD (unidades de estado sólido), los HDD (discos duros) y los servicios en la nube. Las organizaciones almacenan ahora montones de datos, con la esperanza de procesarlos para obtener información que les ayude a tomar decisiones organizativas o a predecir la futura fiabilidad de sus productos o servicios en el mercado.
     p.col-12.col-md-9.ms-auto Desde la ciencia médica, la educación, la logística, hasta los programas espaciales, por nombrar algunos escenarios, los datos y la información resuelven problemas de la vida real a una velocidad vertiginosa, con sus diversas aplicaciones. Prácticamente, no hay límites para sus aplicaciones en las industrias y los beneficios que albergan. 
@@ -176,10 +177,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(style="color: white")
-              h3.mb-1.texto-blanco Documento
-              p.text-small.texto-blanco Registro De Información Tributaria RIT
+              h3.mb-0.texto-blanco Registro De Información Tributaria RIT
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(href="https://www.shd.gov.co/shd/node/28582" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
       .row.justify-content-around.align-items-center.mt-5
@@ -188,10 +188,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0(style="color: white")
-              h3.mb-1.texto-blanco Documento
-              p.text-small.texto-blanco Registro De Información Tributaria RIT
+              h3.mb-0.texto-blanco Instrucciones de diligenciamiento
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(href="https://www.shd.gov.co/shd/node/28582" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

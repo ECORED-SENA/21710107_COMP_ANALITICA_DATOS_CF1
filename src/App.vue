@@ -36,6 +36,7 @@ export default {
     max-width: 439px
 .banner-principal__row
   .banner-principal__info
+    justify-content: space-evenly
     @media (min-width: 1400px)
       width: 50%
 .titulo-principal

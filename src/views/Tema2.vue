@@ -10,9 +10,10 @@
     .bloque-texto-g.color-primario.p-3.p-sm-4.px-md-5.pt-md-5.pb-md-0.justify-content-start
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen_t_2-1.png')})`, 'left': 'auto', 'right': '0'}"
+        style="background-position: right; background-size: auto; background-repeat: no-repeat; background-color: #F3F3F3"
       )
       .d-flex.flex-wrap
-        .bloque-texto-g__texto.py-4.px-3.px-md-5
+        .bloque-texto-g__texto.py-4.px-3.ps-md-5(style="width: 65%")
           p.mb-0 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un <em>software</em> o <em>hardware</em> en un equipo de cómputo, un servidor de Internet o un dispositivo. 
           br
           br
@@ -26,27 +27,27 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-1.png', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-1.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
-        h2.text-center.mb-5 Vía telefónica
+        h3.text-center.mb-5 Vía telefónica
         p.text-center Es la alternativa más ágil de solucionar cualquier requerimiento que presente el cliente.
 
       .col-md.tarjeta.color-primario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-2.png', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-2.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
-        h2.text-center.mb-5 Visita en presencia física
-        p.text-center Se generan algunos problemas que no pueden solucionarse a distancia. Por lo tanto, existe   la alternativa de que un experto técnico del área se desplace al domicilio del cliente o al sitio donde esté ubicado el sistema objeto de soporte
+        h3.text-center.mb-5 Visita en presencia física
+        p.text-center Se generan algunos problemas que no pueden solucionarse a distancia. Por lo tanto, existe   la alternativa de que un experto técnico del área se desplace al domicilio del cliente o al sitio donde esté ubicado el sistema objeto de soporte.
 
       .col-md.tarjeta.color-secundario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-3.png', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-3.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
-        h2.text-center Correo o texto a través de un dispositivo o vía remota.  
+        h3.text-center Correo o texto a través de un dispositivo o vía remota
         p.text-center Con este sistema, el cliente no deberá estar en espera para contactar con un técnico, puede resolver su duda en el chat o en el sitio web y hacerlo en el momento que presente la necesidad.
 
     // Tema 2.1
@@ -73,7 +74,7 @@
       .card-nivel-1.col-6
         p Nivel 2
       .card-nivel-2.col-6
-        p Es el nivel de asistencia inicial, responsable de los problemas básicos de los clientes.
+        p Técnicos que tienen más experiencia y conocimientos sobre un producto o servicio concreto.
 
     .mb-5.container-card-niveles.col-12.col-xl-6.ms-auto(style="z-index: 1; color: #8A8AF9")
       .card-nivel-1.col-6

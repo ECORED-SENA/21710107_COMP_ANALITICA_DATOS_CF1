@@ -33,10 +33,10 @@
         p La integración de la analítica de datos se presenta como un enfoque adecuado para aprovechar la forma en que una empresa que trabaja en esta área es capaz de mejorar la eficiencia y la eficacia de todos sus procesos.
 
     .container-text-arrow.pe-0.pe-md-5.pt-5
-      p.pe-0.pe-md-4.d-block Para la elaboración de este componente, se abordaron varios autores conocidos en análisis y clasificación de la información, de quienes se han <br>
+      p.pe-0.pe-md-4.d-block Para la elaboración de este componente, se abordaron varios autores conocidos en <b>análisis y clasificación de la información</b>, de quienes se han <br>
         | citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo <br>
         | tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en <br>
-        | general, que estén interesados en acercarse a asuntos básicos de analítica de datos de procesos logísticos.
+        | general, que estén interesados en acercarse a asuntos básicos de <b>analítica de datos de procesos logísticos</b>.
       img(src="@/assets/curso/introduccion/arrow-text.svg").ms-4
 
     .container-text-arrow.pe-0.pe-md-5

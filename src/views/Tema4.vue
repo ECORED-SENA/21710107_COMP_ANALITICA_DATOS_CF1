@@ -27,7 +27,7 @@
           .bloque-texto-g__texto.py-4.py-md-5.px-3.px-md-5
             p.mb-0 Muchas empresas manejan información de alto riesgo, que debe mantenerse segura y privada, o a la que se debe acceder rápidamente. En estos casos, un sistema de gestión de documentos que funcione bien es esencial. Pero incluso si su negocio es de naturaleza más informal, sigue siendo importante mantener registros adecuados para la contabilidad y en aras de la eficiencia.
 
-    .cajon-b.color-primario.color-bg-text
+    .cajon-b.color-primario.color-bg-text.col-12.col-md-11.mx-auto
       p En la actualidad, la mayoría de las empresas trabajan cómodamente con documentos digitales y utilizan programas con funciones de almacenamiento y gestión. No faltan programas de gestión de documentos generales y específicos del sector ni aplicaciones diseñadas específicamente para mejorar la gestión de los archivos electrónicos de su empresa.  Por ejemplo, es posible que los hoteles sigan teniendo un registro tipo libro en el momento del <em>check-in</em> y que sigan pidiendo una firma en una ficha de tarjeta de crédito en papel.
         br
         br
@@ -36,12 +36,13 @@
         br
         | Sin embargo, muchas empresas tienen que lidiar con una mezcla de datos anticuados en papel y archivos electrónicos, y, en algunos casos, la proporción de datos en papel es mucho mayor.
 
-    .d-flex.flex-wrap.mb-5
-      .col-12.col-md-3
-        img(src="@/assets/curso/tema4/img_t_4-3.png")
+    .d-flex.flex-wrap.mb-5.col-12.col-md-11.mx-auto
+      .col-12.col-md-3.d-flex.align-items-center
+        div
+          img(src="@/assets/curso/tema4/img_t_4-3.png")
       .col-12.col-md-9.container-text-bloque-b.h-auto
         .cajon-b.color-primario.color-bg-text
-          p Una solución al problema de un entorno de datos mixtos sería utilizar un sistema de digitalización de documentos para convertir todos los documentos de su empresa en archivos electrónicos. Dependiendo del tipo de datos y documentos con los que se trabaje, esto podría ser un proceso relativamente sencillo o podría implicar cierta creatividad y enfoques especializados.
+          p.ps-0.ps-md-4 Una solución al problema de un entorno de datos mixtos sería utilizar un sistema de digitalización de documentos para convertir todos los documentos de su empresa en archivos electrónicos. Dependiendo del tipo de datos y documentos con los que se trabaje, esto podría ser un proceso relativamente sencillo o podría implicar cierta creatividad y enfoques especializados.
             br
             br
             | Por ejemplo, un almacén a pequeña escala, que gestiona recibos e inventarios, puede convertir los documentos en papel en hojas de cálculo digitales, con algo de trabajo adicional de introducción de datos. En cambio, un consultorio odontológico, que mantiene registros de la salud de los pacientes, la facturación, las radiografías, etc., probablemente necesitará un método más sólido para convertir sus numerosos archivos en papel a formatos digitales, como la contratación de un servicio de escaneo de documentos apropiado para la empresa o la compra de un <em>software</em> de escaneo capaz de transferir imágenes de alta resolución.
@@ -56,7 +57,7 @@
     img(src="@/assets/curso/tema4/img_t_4-4.png").col-12.col-md-11
     p.text-center Cada uno de estos pasos se describen a continuación:
     p.fw-bold Crear un plan de gestión de documentos.
-    p.mb-4 Crear un plan de gestiFacturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.ón de documentos.
+    p Facturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.
     p.d-flex.mb-2
       img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px").me-2
       | ¿Existen plantillas internas para algunos de sus documentos empresariales, como cartas o facturas?
@@ -80,8 +81,11 @@
       img(src="@/assets/curso/tema4/img_t_4-6.png").pe-0.pe-md-2.mb-4
       img(src="@/assets/curso/tema4/img_t_4-7.png").ps-0.ps-md-4.mb-5
     
-    p.fw-bold Poner en marcha el plan de gestión documental.
-    p.mb-4 Crear un plan de gestiFacturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.ón de documentos.
+    //- p.fw-bold Poner en marcha el plan de gestión documental.
+    //- p.mb-4 Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.
+    //-   br
+    //-   br
+    //-   | También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header(style="background-color: #88A8F1")
@@ -97,7 +101,7 @@
               |También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header(style="background-color: #88A8F1")
-        h5.mb-0 Poner en marcha el plan de gestión documental.
+        h5.mb-0 Realizar un seguimiento.
       table
         tr(style="background-color: #F6F6F6")
           th(style="width: 208px !important")

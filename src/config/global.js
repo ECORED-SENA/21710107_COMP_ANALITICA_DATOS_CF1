@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Análisis y clasificación de la información ',
     descripcionCurso: `El concepto de estudio de analítica de datos aplica para realizar diferentes <br>
-      funciones cotidianas en el proceso logístico, lo zque facilita un mayor <br>
+      funciones cotidianas en el proceso logístico, lo que facilita un mayor <br>
       dominio del ecosistema de datos y su respectivo análisis para interpretar, <br>
       comunicar y tomar decisiones estratégicamente en la empresa.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -69,6 +69,12 @@ export default {
             numero: '3.1',
             titulo: 'Características de redes de datos',
             hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Tipos y usos de redes de datos',
+            hash: 't_3_2',
           },
         ],
       },
@@ -255,13 +261,13 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       // {
-      //   nombre: 'Leyson Fabian Castaño Perez',
-      //   cargo: 'Soporte organizacional',
-      //   centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      // },
-      // {
-      //   nombre: 'Nombre',
+      //   nombre: '',
       //   cargo: 'Diseño web',
       //   centro:
       //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -284,13 +290,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Laura Ximena Hurtado Villalba',
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'John Jairo Arciniegas González',
+        nombre: 'Laura Ximena Hurtado Villalba',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -308,7 +314,7 @@ export default {
       //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       // },
       {
-        nombre: 'Nombre',
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
