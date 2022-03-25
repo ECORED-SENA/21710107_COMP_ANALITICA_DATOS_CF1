@@ -7,12 +7,13 @@
         span 3
       h1 Redes de datos
 
-    .container-imagen-texto_t_3-1.mb-5
-      .col-12.col-md-5
-        img(src="@/assets/curso/tema3/img_t_3-1.png")
-      .col-12.col-md-7
-        p.mb-0.ps-0.ps-md-4 Las redes de datos son sistemas diseñados para transferir datos entre dos o más puntos de acceso, mediante el uso de controles de sistema, líneas de transmisión y conmutación de datos. Lo que hace que una red de datos sea única con respecto a otros tipos de redes es que está configurada para transmitir únicamente datos.
-        img(src="@/assets/curso/tema3/decorador_t_3-1.svg" style="max-width: 78px; position: absolute; right: 0; bottom: 0")
+    .container-imagen-texto_t_3-1.mb-5(style="background: linear-gradient(90deg, #D8D7D7, #FFFAFA)")
+      .col-12.col-md-11.ms-auto.d-flex.flex-wrap.py-4
+        .col-12.col-md-5
+          img(src="@/assets/curso/tema3/img_t_3-1.png")
+        .col-12.col-md-7.d-flex
+          p.my-auto.ps-0.ps-md-4 Las redes de datos son sistemas diseñados para transferir datos entre dos o más puntos de acceso, mediante el uso de controles de sistema, líneas de transmisión y conmutación de datos. Lo que hace que una red de datos sea única con respecto a otros tipos de redes es que está configurada para transmitir únicamente datos.
+          img(src="@/assets/curso/tema3/decorador_t_3-1.svg" style="max-width: 78px; position: absolute; right: 1rem; bottom: 2rem")
 
     .col-12.col-md-10.mx-auto.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -25,26 +26,26 @@
             p.mb-0 ¿Cómo funciona? En general, las redes de datos se definen por su capacidad de transmitir señales mediante la conmutación de paquetes. El mensaje de datos se descompone en bits discretos, llamados paquetes, y estos paquetes se envían por una red digital que utiliza una ruta óptima para minimizar el retraso en la velocidad de la red de datos. Una vez transmitidos, los paquetes de datos se vuelven a ensamblar cuando llegan al destino.
 
     .container-text-arrow.pe-0
-      img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg)")
+      img(src="@/assets/curso/tema3/decorador_t_3-1.svg" style="min-width: 62px")
       p.d-block.text-center El uso de las redes de datos tiene una amplia gama de ventajas que vale la pena comprender antes de empezar a adoptar este enfoque. Para empezar, es útil conocer las tres principales; para ello, observe la siguiente infografía:
 
     .col-12.col-md-11.mx-auto
-      ImagenInfografica.color-acento-botones.mb-5
+      ImagenInfografica.color-primario.mb-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema3/img_t_3-3.png')
 
-        .tarjeta.color-primario.p-3(x="10%" y="30%" numero="1")
+        .tarjeta.color-acento-botones.p-3(x="25%" y="20%" numero="1")
           p
             span.fw-bold Comunicación: 
             | Tal vez la mayor ventaja de utilizar una red de datos es su capacidad para permitir una comunicación rápida y fluida. Los ordenadores conectados a través de una red de datos pueden comunicarse entre sí y transferir archivos sin necesidad de medios físicos de transferencia  
         
-        .tarjeta.color-primario.p-3(x="50%" y="10%" numero="2")
+        .tarjeta.color-acento-botones.p-3(x="86%" y="30%" numero="2")
           p
             span.fw-bold Colaboración: 
             | Una red de datos puede permitir la colaboración sin fisuras entre dos individuos o equipos separados geográficamente. Varios usuarios (conectados a través de una red de datos) pueden trabajar simultáneamente en el mismo proyecto o documento, a distancia.
         
-        .tarjeta.color-primario.p-3(x="90%" y="30%" numero="3")
+        .tarjeta.color-acento-botones.p-3(x="50%" y="55%" numero="3")
           p
             span.fw-bold Compartir recursos: 
             | Una red de datos no requiere una conexión física para compartir información. Esto significa que recursos como Internet, medios de almacenamiento e impresoras pueden ser compartidos entre dos o más nodos.

@@ -6,20 +6,17 @@
       .titulo-principal__numero
         span 2
       h1 Soporte de análisis de datos
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.px-md-5.pt-md-5.pb-md-0.justify-content-start
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen_t_2-1.png')})`, 'left': 'auto', 'right': '0'}"
-        style="background-position: right; background-size: auto; background-repeat: no-repeat; background-color: #F3F3F3"
-      )
-      .d-flex.flex-wrap
-        .bloque-texto-g__texto.py-4.px-3.ps-md-5(style="width: 65%")
-          p.mb-0 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un <em>software</em> o <em>hardware</em> en un equipo de cómputo, un servidor de Internet o un dispositivo. 
-          br
-          br
-          | Con el creciente uso de la tecnología en los tiempos modernos, hay una necesidad cada vez mayor de proporcionar soporte técnico. Muchas organizaciones ubican sus departamentos de soporte técnico o centros de llamadas en países o regiones con costes más bajos. Dell fue una de las primeras empresas en externalizar sus departamentos de soporte técnico y atención al cliente a la India, en 2004. También han aumentado las empresas especializadas en ofrecer soporte técnico a otras organizaciones.
-        p.col-12.col-md-7.texto_t_2 Para las empresas que necesitan proporcionar soporte técnico, la externalización les permite mantener una alta disponibilidad del servicio. Esta necesidad puede ser el resultado de picos en el volumen de llamadas durante el día, periodos de gran actividad debido a la introducción de nuevos productos o paquetes de servicios de mantenimiento, o el requisito de proporcionar a los clientes un alto nivel de servicio a un bajo costo para la empresa. 
-
+    .d-flex.flex-wrap.flex-md-nowrap.mb-5
+      p.col-12.col-md-6.col-xl-7.py-4 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un software o hardware en un equipo de cómputo, un servidor de Internet o un dispositivo. 
+        br
+        br
+        | Con el creciente uso de la tecnología en los tiempos modernos, hay una necesidad cada vez mayor de proporcionar soporte técnico. Muchas organizaciones ubican sus departamentos de soporte técnico o centros de llamadas en países o regiones con costes más bajos. Dell fue una de las primeras empresas en externalizar sus departamentos de soporte técnico y atención al cliente a la India, en 2004. También han aumentado las empresas especializadas en ofrecer soporte técnico a otras organizaciones.
+        br
+        br
+        | Para las empresas que necesitan proporcionar soporte técnico, la externalización les permite mantener una alta disponibilidad del servicio. Esta necesidad puede ser el resultado de picos en el volumen de llamadas durante el día, periodos de gran actividad debido a la introducción de nuevos productos o paquetes de servicios de mantenimiento, o el requisito de proporcionar a los clientes un alto nivel de servicio a un bajo costo para la empresa.
+      .col-12.col-md-6.col-xl-5.d-flex.align-items-center.justify-content-center(style="background: linear-gradient(90deg, #FFFAFA, #D8D7D7")
+        img(src="@/assets/curso/tema2/imagen_t_2-1.png" style="max-width: 411px")
+    
     p.py-5.mb-0 Los tipos de soporte de datos más conocidos son: 
 
     .tarjeta--container.row.mb-5
@@ -49,7 +46,7 @@
           
         h3.text-center Correo o texto a través de un dispositivo o vía remota
         p.text-center Con este sistema, el cliente no deberá estar en espera para contactar con un técnico, puede resolver su duda en el chat o en el sitio web y hacerlo en el momento que presente la necesidad.
-
+    Separador
     // Tema 2.1
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Características del soporte
@@ -112,8 +109,8 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-tarjeta-flip_t_2-2.png')})`}" style="background-size: contain; background-repeat: no-repeat; background-color: #33A4FF")
-            .tarjeta-flip__contenido.p-4.flex-wrap(style="background-color: #33A4FF")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img-tarjeta-flip_t_2-2.png')})`}" style="background-size: contain; background-repeat: no-repeat; background-color: #76C2FF")
+            .tarjeta-flip__contenido.p-4.flex-wrap(style="background-color: #9ACDF6")
               h4.my-4 Almacenamiento en bloques
               p(style="color: black") Los datos se almacenan en bloques de tamaño uniforme. Aunque es más caro, complejo y menos escalable, el almacenamiento en bloques es ideal para los datos a los que hay que acceder y editar con frecuencia.
         
@@ -238,10 +235,13 @@ export default {
     display: none
 .cajon-b-left
   &::before
+    height: 50% !important
     background-color: #d7e2fa !important
 .cajon-b-right
   &::before
+    height: 50% !important
     background-color: #d7e2fa !important
     left: 60%
     right: 0
+    top: 50%
 </style>

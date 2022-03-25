@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="459.466" viewBox="0 0 1240 459.466">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.419" cy="0.585" r="0.827" gradientTransform="matrix(0.71, 0.707, -0.495, 0.493, -5897.309, -6002.351)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c6c6e"/>
+      <stop offset="0.001" stop-color="#6c6c6e"/>
+      <stop offset="0.102" stop-color="#939394"/>
+      <stop offset="0.208" stop-color="#b4b4b5"/>
+      <stop offset="0.323" stop-color="#cfcfd0"/>
+      <stop offset="0.448" stop-color="#e4e4e5"/>
+      <stop offset="0.586" stop-color="#f3f3f3"/>
+      <stop offset="0.749" stop-color="#fcfcfc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.581" cy="0.415" r="0.827" gradientTransform="matrix(-0.71, -0.707, 0.495, -0.493, 5603.36, -17988.102)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient" x1="-0.037" y1="0.695" x2="3.498" y2="-0.692" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3eedd5"/>
+      <stop offset="0.51" stop-color="#669bcc"/>
+      <stop offset="1" stop-color="#e88ee1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.288" y1="0.831" x2="3.266" y2="-0.941" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.955" y1="1.291" x2="2.598" y2="-0.487" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-1.188" y1="1.28" x2="2.366" y2="-0.491" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-1.856" y1="1.74" x2="1.698" y2="-0.036" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-3.059" y1="1.126" x2="33.842" y2="-4.949" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="-6.471" y1="2.543" x2="13.501" y2="-3.439" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-7" y1="3.164" x2="10.661" y2="-2.902" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="-11.499" y1="4.098" x2="8.225" y2="-1.884" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="-2.088" y1="1.729" x2="1.465" y2="-0.042" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="-2.734" y1="1.77" x2="0.82" y2="0.382" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="-12.447" y1="4.491" x2="6.567" y2="-1.356" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="-17.843" y1="5.651" x2="3.429" y2="-0.428" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="-3.079" y1="1.61" x2="17.294" y2="-4.373" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="0.415" cy="0.419" r="0.83" gradientTransform="matrix(-0.704, 0.707, -0.491, -0.493, -5939.871, -18119.205)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="0.585" cy="0.581" r="0.83" gradientTransform="matrix(0.704, -0.707, 0.491, 0.493, 5740.206, -6138.486)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="0.419" cy="0.585" r="0.827" gradientTransform="matrix(0.71, 0.707, -0.495, 0.493, -5890.092, -5992.584)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="0.581" cy="0.415" r="0.827" gradientTransform="matrix(-0.71, -0.707, 0.495, -0.493, 5645.429, -17997.809)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-7" cx="0.415" cy="0.419" r="0.83" gradientTransform="matrix(-0.704, 0.707, -0.491, -0.493, -5981.547, -18129.016)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="0.585" cy="0.581" r="0.83" gradientTransform="matrix(0.704, -0.707, 0.491, 0.493, 5733.028, -6128.734)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-9" cx="0.415" cy="0.419" r="0.83" gradientTransform="matrix(-0.704, 0.707, -0.491, -0.493, -6023.32, -18138.865)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-10" cx="0.585" cy="0.581" r="0.83" gradientTransform="matrix(0.704, -0.707, 0.491, 0.493, 5725.851, -6118.944)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-11" cx="0.419" cy="0.585" r="0.827" gradientTransform="matrix(0.71, 0.707, -0.495, 0.493, -5882.895, -5982.858)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-12" cx="0.581" cy="0.415" r="0.827" gradientTransform="matrix(-0.71, -0.707, 0.495, -0.493, 5687.338, -18007.477)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Grupo_166895" data-name="Grupo 166895" transform="translate(-180 -2561)">
+    <g id="Grupo_164925" data-name="Grupo 164925" transform="translate(-1302.489 -2862.244)">
+      <g id="Grupo_164922" data-name="Grupo 164922" transform="translate(2303.988 5618.537)">
+        <path id="Trazado_208625" data-name="Trazado 208625" d="M4967.754,6247.967c-2.263-2.262-29.336-29.335-31.627-31.626,0,0,19.526-9.691,30.422,1.2C4977.141,6228.137,4967.754,6247.967,4967.754,6247.967Z" transform="translate(-4902.921 -6212.37)" fill="url(#radial-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208626" data-name="Trazado 208626" d="M4805.784,6347.092l31.627,31.627s-19.526,9.691-30.422-1.205C4796.4,6366.922,4805.784,6347.092,4805.784,6347.092Z" transform="translate(-4801.947 -6313.751)" fill="url(#radial-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52800" data-name="Rectángulo 52800" width="41.535" height="44.727" transform="translate(3.837 33.341) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_164926" data-name="Grupo 164926" transform="translate(1482.489 5423.244)">
+        <g id="Grupo_164917" data-name="Grupo 164917">
+          <path id="Trazado_208604" data-name="Trazado 208604" d="M1616.91,5721.526h0l-125.269-125.27a31.328,31.328,0,0,1,0-44.256l119.6-119.6a31.33,31.33,0,0,1,44.258,0l121.2,121.2a31.331,31.331,0,0,1,0,44.257l-59,59h0l-7.761-7.761h0l59-59a20.341,20.341,0,0,0,0-28.735l-121.2-121.2a20.342,20.342,0,0,0-28.736,0l-119.6,119.6a20.342,20.342,0,0,0,0,28.736L1616.91,5706a10.976,10.976,0,0,1,0,15.522Z" transform="translate(-1482.489 -5423.244)" fill="url(#linear-gradient)"/>
+          <path id="Trazado_208605" data-name="Trazado 208605" d="M2270.594,6569.469a31.2,31.2,0,0,1-22.129-9.151l-119.6-119.6a31.331,31.331,0,0,1,0-44.258l60.6-60.6h0l7.76,7.76h0l-60.42,60.42a20.642,20.642,0,0,0-6.124,13.941,20.2,20.2,0,0,0,5.943,14.977l119.6,119.6a20.341,20.341,0,0,0,28.737,0l119.6-119.6a20.344,20.344,0,0,0,0-28.737l-60.6-60.6h0l7.76-7.76h0l60.6,60.6a31.33,31.33,0,0,1,0,44.258l-119.6,119.6A31.2,31.2,0,0,1,2270.594,6569.469Z" transform="translate(-1962.011 -6110.003)" fill="url(#linear-gradient-2)"/>
+          <path id="Trazado_208606" data-name="Trazado 208606" d="M2983.24,5662.474l-7.76-7.761h0l59.8-59.8a20.32,20.32,0,0,0,0-28.736l-119.423-119.423a20.647,20.647,0,0,0-13.942-6.124,20.2,20.2,0,0,0-14.974,5.942l-119.6,119.6a20.32,20.32,0,0,0,0,28.736l59,59h0l-7.761,7.761h0l-58.769-58.769a31.7,31.7,0,0,1-9.382-21.306,31.11,31.11,0,0,1,9.149-23.186l119.6-119.6a31.293,31.293,0,0,1,44.257,0l119.6,119.6a31.33,31.33,0,0,1,0,44.257l-59.8,59.8Z" transform="translate(-2436.626 -5428.061)" fill="url(#linear-gradient-3)"/>
+          <path id="Trazado_208607" data-name="Trazado 208607" d="M3532.114,6569.469a31.2,31.2,0,0,1-22.129-9.151l-119.6-119.6a31.331,31.331,0,0,1,0-44.258l59.8-59.8h0l7.761,7.76h0l-59.8,59.8a20.343,20.343,0,0,0,0,28.737l119.6,119.6a20.342,20.342,0,0,0,28.737,0l119.6-119.6a20.343,20.343,0,0,0,0-28.737l-60.6-60.6h0l7.761-7.76h0l60.6,60.6a31.331,31.331,0,0,1,0,44.258l-119.6,119.6A31.2,31.2,0,0,1,3532.114,6569.469Z" transform="translate(-2911.33 -6110.003)" fill="url(#linear-gradient-4)"/>
+          <path id="Trazado_208608" data-name="Trazado 208608" d="M4244.534,5662.746l-7.761-7.762h0l60.073-60.074a20.342,20.342,0,0,0,0-28.736l-119.422-119.422a20.644,20.644,0,0,0-13.944-6.124,20.2,20.2,0,0,0-14.974,5.943l-119.6,119.6a20.342,20.342,0,0,0,0,28.736l59,59h0l-7.76,7.761h0l-59-59a31.33,31.33,0,0,1,0-44.257l119.371-119.37a31.7,31.7,0,0,1,21.3-9.382,31.1,31.1,0,0,1,23.189,9.149l119.6,119.6a31.329,31.329,0,0,1,0,44.257l-60.073,60.075Z" transform="translate(-3385.99 -5428.06)" fill="url(#linear-gradient-5)"/>
+          <g id="Grupo_164911" data-name="Grupo 164911" transform="translate(138.51 43.298)">
+            <path id="Trazado_208609" data-name="Trazado 208609" d="M2043.642,5696.544l-1.469-5.625h0l11.856-2.887h3.445V5723.9h-7.195v-28.829h0l-6.637,1.47Z" transform="translate(-2042.173 -5688.032)" fill="url(#linear-gradient-6)"/>
+          </g>
+          <g id="Grupo_164912" data-name="Grupo 164912" transform="translate(450.766 43.297)">
+            <path id="Trazado_208610" data-name="Trazado 208610" d="M3315.6,5721.207c0,7.685-5.589,11.678-13.875,11.678-8.684,0-13.974-4.192-13.974-10.979v-.6h6.587v.3c0,3.194,2.745,5.19,7.137,5.19,4.542,0,7.137-2.246,7.137-5.889,0-3.743-3.294-5.74-7.236-5.74a13.189,13.189,0,0,0-4.891,1h0l-2.4-3.194h0l10.381-9.882h-15.023V5697h24.905v2.994h0l-10.581,10.182h.1C3311.408,5710.176,3315.6,5715.566,3315.6,5721.207Z" transform="translate(-3287.751 -5697)" fill="url(#linear-gradient-7)"/>
+          </g>
+          <g id="Grupo_164913" data-name="Grupo 164913" transform="translate(596.275 188.297)">
+            <path id="Trazado_208611" data-name="Trazado 208611" d="M3941.6,6349.042h-6.614v7.747H3926.7v-7.747H3904v-3.754h0l25.863-30.748h5.125v27.412h6.614v7.09Zm-14.6-21.274-12.1,14.542H3927v-14.542Z" transform="translate(-3903.999 -6314.541)" fill="url(#linear-gradient-8)"/>
+          </g>
+          <g id="Grupo_164914" data-name="Grupo 164914" transform="translate(762.972 40.297)">
+            <path id="Trazado_208612" data-name="Trazado 208612" d="M4582.51,5710.359c0,9.406-6.584,14.109-16.461,14.109-10.17,0-16.755-5-16.755-12.992v-.647h7.761v.294c0,3.762,3.645,6.114,8.818,6.114,5.35,0,8.407-2.646,8.407-7.114,0-5-3.41-7.408-8.818-7.408-3,0-6.173.824-7.584,2.41h0l-7-.058h0l1.293-22.869h27.572v7.172h-20.4l-.529,8.29h0a21.1,21.1,0,0,1,8.171-1.47C4575.866,5696.19,4582.51,5701.482,4582.51,5710.359Z" transform="translate(-4552.293 -5682.199)" fill="url(#linear-gradient-9)"/>
+          </g>
+          <path id="Trazado_208613" data-name="Trazado 208613" d="M4793.762,6569.469a31.194,31.194,0,0,1-22.128-9.151l-119.6-119.6a31.331,31.331,0,0,1,0-44.258l59.8-59.8h0l7.76,7.76h0l-59.8,59.8a20.343,20.343,0,0,0,0,28.737l119.6,119.6a20.341,20.341,0,0,0,28.736,0l119.6-119.6a20.345,20.345,0,0,0,0-28.737l-60.6-60.6h0l7.761-7.76h0l60.6,60.6a31.33,31.33,0,0,1,0,44.258l-119.6,119.6A31.2,31.2,0,0,1,4793.762,6569.469Z" transform="translate(-3860.746 -6110.003)" fill="url(#linear-gradient-10)"/>
+          <path id="Trazado_208614" data-name="Trazado 208614" d="M5441.14,5727.787h0a10.975,10.975,0,0,1,0-15.521l117.354-117.354a20.341,20.341,0,0,0,0-28.736L5439.08,5446.76a20.669,20.669,0,0,0-14.526-6.14,20.187,20.187,0,0,0-14.4,5.951l-119.6,119.6a20.342,20.342,0,0,0,0,28.736l59,59h0l-7.76,7.761h0l-59-59a31.327,31.327,0,0,1,0-44.257l119.361-119.361a31.731,31.731,0,0,1,22.065-9.407,31.1,31.1,0,0,1,22.434,9.165l119.6,119.6a31.33,31.33,0,0,1,0,44.257Z" transform="translate(-4335.406 -5428.061)" fill="url(#linear-gradient-11)"/>
+          <g id="Grupo_164915" data-name="Grupo 164915" transform="translate(917.856 190.297)">
+            <path id="Trazado_208615" data-name="Trazado 208615" d="M5221.835,6345.447c0,8.417-6.117,13.019-14.64,13.019-10.405,0-15.895-6.692-15.895-18.457,0-13.645,6.85-19.868,16.156-19.868,8.313,0,13.124,4.549,13.175,9.83v.576h0l-7.163.052h0c-.209-2.458-2.144-4.235-6.169-4.235-5.595,0-8.47,4.288-8.731,10.77h0a13.9,13.9,0,0,1,9.411-3.292C5215.352,6333.841,5221.835,6337.343,5221.835,6345.447Zm-7.32.261c0-4.077-3.4-6.378-7.633-6.378s-7.686,2.353-7.686,6.013c0,3.45,2.928,6.9,8,6.9C5212.058,6352.245,5214.515,6349.317,5214.515,6345.708Z" transform="translate(-5191.301 -6320.142)" fill="url(#linear-gradient-12)"/>
+          </g>
+          <g id="Grupo_164916" data-name="Grupo 164916" transform="translate(1078 46.297)">
+            <path id="Trazado_208616" data-name="Trazado 208616" d="M5869.469,5715.671l-14.841,28.439h-6.933l13.643-25.907h-15.065v-5.42h23.2v2.888Z" transform="translate(-5846.273 -5712.783)" fill="url(#linear-gradient-13)"/>
+          </g>
+        </g>
+        <g id="Grupo_164924" data-name="Grupo 164924" transform="translate(290.347 190.297)">
+          <path id="Trazado_208629" data-name="Trazado 208629" d="M2684.074,6363.823h-28.369v-1.711c.518-5.913,4.149-10.269,11.98-15.248,3.941-2.542,8.817-5.186,8.765-9.18-.052-3.112-2.7-4.667-6.016-4.667-4.253,0-7.364,2.749-7.469,6.9v.623h-6.846v-1.193c.052-7.78,5.861-12.811,14.522-12.811,7.52,0,13.277,3.683,13.277,10.944,0,6.43-4.823,10.372-12.447,14.365-3.942,2.075-6.224,3.734-7.52,5.653h20.123Z" transform="translate(-2655.705 -6326.533)" fill="url(#linear-gradient-14)"/>
+        </g>
+      </g>
+      <g id="Grupo_164919" data-name="Grupo 164919" transform="translate(1833.482 5618.671)">
+        <path id="Trazado_208619" data-name="Trazado 208619" d="M3035.482,6378.719l31.627-31.627s9.691,19.526-1.2,30.422C3055.312,6388.105,3035.482,6378.719,3035.482,6378.719Z" transform="translate(-3002.141 -6313.885)" fill="url(#radial-gradient-3)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208620" data-name="Trazado 208620" d="M2936.356,6216.75l-31.626,31.627s-9.692-19.527,1.2-30.423C2916.527,6207.363,2936.356,6216.75,2936.356,6216.75Z" transform="translate(-2900.759 -6212.913)" fill="url(#radial-gradient-4)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52797" data-name="Rectángulo 52797" width="41.535" height="44.727" transform="translate(35.598 3.837) rotate(45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_164920" data-name="Grupo 164920" transform="translate(1991.38 5618.537)">
+        <path id="Trazado_208621" data-name="Trazado 208621" d="M3704.587,6247.967c-2.263-2.262-29.336-29.335-31.627-31.626,0,0,19.526-9.691,30.422,1.2C3713.974,6228.137,3704.587,6247.967,3704.587,6247.967Z" transform="translate(-3639.753 -6212.37)" fill="url(#radial-gradient-5)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208622" data-name="Trazado 208622" d="M3542.617,6347.092l31.627,31.627s-19.526,9.691-30.422-1.205C3533.23,6366.922,3542.617,6347.092,3542.617,6347.092Z" transform="translate(-3538.781 -6313.751)" fill="url(#radial-gradient-6)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52798" data-name="Rectángulo 52798" width="41.535" height="44.727" transform="translate(3.837 33.341) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_164921" data-name="Grupo 164921" transform="translate(2144.834 5618.671)">
+        <path id="Trazado_208623" data-name="Trazado 208623" d="M4293.572,6378.719l31.626-31.627s9.692,19.526-1.2,30.422C4313.4,6388.105,4293.572,6378.719,4293.572,6378.719Z" transform="translate(-4260.231 -6313.885)" fill="url(#radial-gradient-7)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208624" data-name="Trazado 208624" d="M4194.446,6216.75l-31.627,31.627s-9.691-19.527,1.2-30.423C4174.616,6207.363,4194.446,6216.75,4194.446,6216.75Z" transform="translate(-4158.848 -6212.913)" fill="url(#radial-gradient-8)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52799" data-name="Rectángulo 52799" width="41.535" height="44.727" transform="translate(35.598 3.837) rotate(45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_164923" data-name="Grupo 164923" transform="translate(2457.442 5618.671)">
+        <path id="Trazado_208627" data-name="Trazado 208627" d="M5556.737,6378.719l31.626-31.627s9.691,19.526-1.2,30.422C5576.567,6388.105,5556.737,6378.719,5556.737,6378.719Z" transform="translate(-5523.396 -6313.885)" fill="url(#radial-gradient-9)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208628" data-name="Trazado 208628" d="M5457.613,6216.75l-31.626,31.627s-9.692-19.527,1.2-30.423C5437.783,6207.363,5457.613,6216.75,5457.613,6216.75Z" transform="translate(-5422.015 -6212.913)" fill="url(#radial-gradient-10)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52801" data-name="Rectángulo 52801" width="41.535" height="44.727" transform="translate(35.598 3.837) rotate(45)" fill="#fff"/>
+      </g>
+      <g id="Grupo_164918" data-name="Grupo 164918" transform="translate(1680.028 5618.537)">
+        <path id="Trazado_208617" data-name="Trazado 208617" d="M2446.5,6247.967l-31.627-31.626s19.526-9.691,30.422,1.2C2455.884,6228.137,2446.5,6247.967,2446.5,6247.967Z" transform="translate(-2381.663 -6212.37)" fill="url(#radial-gradient-11)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Trazado_208618" data-name="Trazado 208618" d="M2284.528,6347.092l31.627,31.627s-19.526,9.691-30.422-1.205C2275.141,6366.922,2284.528,6347.092,2284.528,6347.092Z" transform="translate(-2280.691 -6313.751)" fill="url(#radial-gradient-12)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <rect id="Rectángulo_52796" data-name="Rectángulo 52796" width="41.535" height="44.727" transform="translate(3.837 33.341) rotate(-45)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Los_datos_contienen_cifras_y_hechos_en_bruto._" data-name="Los datos contienen cifras y hechos en bruto. " transform="translate(235 2694)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="1.492" y="16">Los datos contienen cifras y </tspan><tspan x="39.362" y="38">hechos en bruto. </tspan></text>
+    <text id="La_información_no_puede_existir_sin_los_datos_pero_los_datos_no_dependen_de_la_información." data-name="La información no puede existir sin los datos, pero los datos no dependen de la información." transform="translate(550 2660)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="12.189" y="16">La información no puede </tspan><tspan x="0.551" y="38">existir sin los datos, pero los </tspan><tspan x="13.361" y="60">datos no dependen de la </tspan><tspan x="52.834" y="82">información.</tspan></text>
+    <text id="Los_datos_no_dan_lugar_a_lo_específico_ya_que_rara_vez_hay_relevancia_dispersa_entre_montones_de_datos_a_menos_que_se_procesen._" data-name="Los datos no dan lugar a lo específico, ya que rara vez hay relevancia dispersa entre montones de datos, a menos que se procesen. " transform="translate(869 2660)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="7.205" y="16">Los datos no dan lugar a </tspan><tspan x="7.128" y="38">lo específico, ya que rara </tspan><tspan x="28.548" y="60">vez hay relevancia </tspan><tspan x="6.231" y="82">dispersa entre montones </tspan><tspan x="4.312" y="104">de datos, a menos que se </tspan><tspan x="56.42" y="126">procesen. </tspan></text>
+    <text id="Los_datos_no_albergan_ningún_significado_real_mientras_que_la_información_existe_para_proporcionar_conocimientos_y_significado." data-name="Los datos no albergan ningún significado real, mientras que la información existe para proporcionar conocimientos y significado." transform="translate(1175 2660)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="20.959" y="16">Los datos no albergan </tspan><tspan x="18.308" y="36">ningún significado real, </tspan><tspan x="1.675" y="56">mientras que la información </tspan><tspan x="14.045" y="76">existe para proporcionar </tspan><tspan x="40.204" y="96">conocimientos y </tspan><tspan x="56.508" y="116">significado.</tspan></text>
+    <text id="La_información_es_particular_con_correlación_a_las_inferencias_derivadas." data-name="La información es particular con correlación a las inferencias derivadas." transform="translate(1020 2846)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="1.506" y="16">La información es particular </tspan><tspan x="25.929" y="38">con correlación a las </tspan><tspan x="21.897" y="60">inferencias derivadas.</tspan></text>
+    <text id="Los_datos_como_entrada_pasan_por_un_proceso_de_filtración_seguido_por_una_organización_significativa_para_generar_una_salida_o_información." data-name="Los datos, como entrada, pasan por un proceso de filtración, seguido por una organización significativa, para generar una salida o información." transform="translate(709 2817)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="11.079" y="16">Los datos, como entrada, </tspan><tspan x="12.709" y="38">pasan por un proceso de </tspan><tspan x="9.017" y="60">filtración, seguido por una </tspan><tspan x="8.713" y="82">organización significativa, </tspan><tspan x="10.988" y="104">para generar una salida o </tspan><tspan x="52.834" y="126">información.</tspan></text>
+    <text id="La_información_a_diferencia_de_los_datos_proporciona_información_analizada_a_través_de_los_datos_recogidos." data-name="La información, a diferencia de los datos, proporciona información analizada a través de los datos recogidos." transform="translate(393 2823)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="2.469" y="16">La información, a diferencia </tspan><tspan x="10.815" y="38">de los datos, proporciona </tspan><tspan x="14.972" y="60">información analizada a </tspan><tspan x="32.092" y="82">través de los datos </tspan><tspan x="59.91" y="104">recogidos.</tspan></text>
+  </g>
+</svg>

@@ -121,12 +121,12 @@ export default {
         titulo: 'Sintesis',
         nombreRuta: 'sintesis',
       },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -266,12 +266,12 @@ export default {
         cargo: 'Soporte organizacional',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
-      // {
-      //   nombre: '',
-      //   cargo: 'Diseño web',
-      //   centro:
-      //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      // },
+      {
+        nombre: '',
+        cargo: 'Fabian Zarate',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',

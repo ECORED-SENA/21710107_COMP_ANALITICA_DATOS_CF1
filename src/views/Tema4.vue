@@ -51,11 +51,10 @@
     .titulo-segundo.color-primario
       h2#t_4_1 4.1. Proceso documental
 
-    .cajon.color-primario.p-4.mb-4(style="background-color: #7F0F98;")
-        p(style="color: white") Tanto si se trabaja con un entorno exclusivamente digital como en un entorno híbrido, con documentos digitales y en papel, la creación de un sistema de gestión de documentos implica tres pasos:
+    p.mb-5 Tanto si se trabaja con un entorno exclusivamente digital como en un entorno híbrido, con documentos digitales y en papel, la creación de un sistema de gestión de documentos implica tres pasos:
 
-    img(src="@/assets/curso/tema4/img_t_4-4.png").col-12.col-md-11
-    p.text-center Cada uno de estos pasos se describen a continuación:
+    img(src="@/assets/curso/tema4/img_t_4-4.png").col-12.col-md-11.mx-auto.mb-5
+    p.mb-5 Cada uno de estos pasos se describen a continuación:
     p.fw-bold Crear un plan de gestión de documentos.
     p Facturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.
     p.d-flex.mb-2
