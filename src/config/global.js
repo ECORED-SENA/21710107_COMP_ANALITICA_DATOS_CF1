@@ -142,11 +142,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -253,6 +253,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Nelly Parra Guarín',
+        cargo: 'Experta temática',
+        centro: 'Distrito Capital – Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Leydy Jhuliana Jaramillo Mejia',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+      },
     ],
     desarrolloProducto: [
       {
@@ -267,8 +287,8 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: 'Fabian Zarate',
+        nombre: 'Yerson Fabian Zarate Saavedra',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

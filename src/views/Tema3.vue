@@ -99,6 +99,11 @@
     .titulo-segundo.color-primario
       h2#t_3_2 3.2 Tipos y usos de redes de datos
 
+    .container-text-parrafo-3-2.mb-5
+      p Las redes se configuran con el objeto de transmitir datos de un sistema a otro o de contar con recursos en común, como servidores, bases de datos o impresoras. En función del tamaño y del alcance de la red de computadoras, se puede demostrar una diferenciación entre distintas magnitudes de red. 
+
+    p.mb-5 A continuación, en la infografía, se describen los tipos de redes más relevantes que se encuentran y sus usos:
+
     .container-card-img-left-r.mb-4
       .text-card-img
         span PAN
@@ -350,4 +355,25 @@ export default {
         border-top-right-radius: 24px
         border-bottom-left-radius: 0
         border-bottom-right-radius: 0
+.container-text-parrafo-3-2
+  position: relative
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    left: -3rem
+    width: 40%
+    height: 50%
+    background-color: #DFC2E5
+  &::after
+    position: absolute
+    content: ''
+    bottom: 0
+    right: -3rem
+    width: 40%
+    height: 50%
+    background-color: #DFC2E5
+  p
+    position: relative
+    z-index: 1
 </style>
