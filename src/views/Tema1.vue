@@ -13,14 +13,14 @@
           br
           br
           | El aumento de la cantidad de datos disponibles presenta tanto oportunidades como problemas. En general, disponer de más datos sobre los clientes (y los clientes potenciales) debería permitir a las empresas adaptar mejor los productos y los esfuerzos de <em>marketing</em>, con el fin de crear mayor nivel de satisfacción y de repetición del negocio. Las empresas que recogen una gran cantidad de datos tienen la oportunidad de realizar análisis más profundos y ricos, en beneficio de todas las partes interesadas. Por ejemplo, el Big Data logístico puede utilizarse para optimizar las rutas, racionalizar las funciones de las fábricas y dar transparencia a toda la cadena de suministro, en beneficio tanto de las empresas como de su logística.
-      img(src="@/assets/curso/tema1/imagen_t_1.png").mt-4.mt-md-0
+      img(src="@/assets/curso/tema1/imagen_t_1.png" data-aos="fade-up").mt-4.mt-md-0
 
     .container-decorador.col-12.col-md-11.mb-3
-      .container-decorador-text
-        p El Big Data en logística requiere una gran cantidad de fuentes de información de alta calidad para <br>
-         | funcionar eficazmente. ¿De dónde van a salir todos esos datos? A continuación, se relaciona una <br>
+      .container-decorador-text(data-aos="fade-right")
+        p El Big Data en logística requiere una gran cantidad de fuentes de información de alta calidad para 
+         | funcionar eficazmente. ¿De dónde van a salir todos esos datos? A continuación, se relaciona una 
          | amplia selección de posibles fuentes de datos, entre las que se incluyen:
-      img(src="@/assets/curso/tema1/decorador_t_1-1.svg").d-none.d-md-flex
+      img(src="@/assets/curso/tema1/decorador_t_1-1.svg" data-aos="fade-left").d-none.d-md-flex
     
     .row.mb-0.mb-md-4
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -75,8 +75,8 @@
               p.fw-bold Datos de redes sociales
     
     .container-bg
-      img(src="@/assets/curso/tema1/imagen_t_1_img-1.png" style="max-width: 400px; max-height: 237px").mb-4.mb-md-0
-      .container-bg-text-img
+      img(src="@/assets/curso/tema1/imagen_t_1_img-1.png" data-aos="fade-right" style="max-width: 400px; max-height: 237px").mb-4.mb-md-0
+      .container-bg-text-img(data-aos="fade-left")
         p Es claro que hay muchas formas de alimentar los sistemas de datos con la información que necesitan. Todas estas fuentes de datos y casos de uso potenciales han llevado a afirmar que la tecnología de Big Data y automatización conducirá a niveles de optimización antes inimaginables en la fabricación, la logística, el almacenamiento y la entrega de última milla.
           br
           br
@@ -94,10 +94,10 @@
 
     p.col-12 En el siguiente esquema, se comparte la diferencia entre datos e información:
 
-    img(src="@/assets/curso/tema1/imagen_t_1-1.svg").my-5
+    img(src="@/assets/curso/tema1/imagen_t_1-1.svg" data-aos="fade-down").my-5
 
     .container_t_1_ad
-      p(style="background-color: #D4E0FA; color: black") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
+      p(style="background-color: #D4E0FA; color: black" data-aos="fade-up") El conocimiento es una información procesada en la mente de su poseedor. Son informaciones personalizadas, que se recogen mediante el estudio o las experiencias. El conocimiento también puede verse desde perspectivas diferenciales; de allí, la información representa un mensaje con significado que se deriva de los datos, que consisten en un conjunto de registros simples, no filtrados y objetivos.
         br
         br
         |En el cuadro que se comparte, se presentan algunos elementos que permiten reconocer los datos, la información y el conocimiento. 
@@ -135,8 +135,8 @@
               p La información tiene las<br> cualidades de transmitir y<br> comunicar, impactar en<br> los juicios y en el<br> comportamiento.
     
     .d-flex.flex-wrap.flex-md-nowrap.mb-5
-      img(src="@/assets/curso/tema1/img-1.png" style="max-width: 282px").mb-4.mb-md-0
-      p La ciencia y la tecnología de la información han ganado potencial en términos de transición tecnológica: desde los servidores hasta la nube y las bases de datos más inteligentes, los datos se procesan en un abrir y cerrar de ojos. Con la velocidad, viene la capacidad de procesar datos, incluso con unidades de <em>hardware</em> de bajo coste, como las SSD (unidades de estado sólido), los HDD (discos duros) y los servicios en la nube. Las organizaciones almacenan ahora montones de datos, con la esperanza de procesarlos para obtener información que les ayude a tomar decisiones organizativas o a predecir la futura fiabilidad de sus productos o servicios en el mercado.
+      img(src="@/assets/curso/tema1/img-1.png" data-aos="fade-right" style="max-width: 282px").mb-4.mb-md-0
+      p(data-aos="fade-left") La ciencia y la tecnología de la información han ganado potencial en términos de transición tecnológica: desde los servidores hasta la nube y las bases de datos más inteligentes, los datos se procesan en un abrir y cerrar de ojos. Con la velocidad, viene la capacidad de procesar datos, incluso con unidades de <em>hardware</em> de bajo coste, como las SSD (unidades de estado sólido), los HDD (discos duros) y los servicios en la nube. Las organizaciones almacenan ahora montones de datos, con la esperanza de procesarlos para obtener información que les ayude a tomar decisiones organizativas o a predecir la futura fiabilidad de sus productos o servicios en el mercado.
         br
         br
         | Desde la ciencia médica, la educación, la logística, hasta los programas espaciales, por nombrar algunos escenarios, los datos y la información resuelven problemas de la vida real a una velocidad vertiginosa, con sus diversas aplicaciones. Prácticamente, no hay límites para sus aplicaciones en las industrias y los beneficios que albergan. 
@@ -145,15 +145,15 @@
     .titulo-segundo.color-primario
       h2#t_1_2 1.2 Registro de datos
     .d-flex.flex-wrap
-      .container_t_1_ad.col-12.col-md-9.bg-2
+      .container_t_1_ad.col-12.col-md-9.bg-2(data-aos="fade-right")
         p.ps-5(style="background-color: #E7D2EC; color: black") El concepto de registro de datos se define como el  grupo  de  información, con cierta correlación, estructurado en una tabla comportada por campos, como columnas y filas; el objetivo general de este es poner por escrito y asegurar la conservación de los datos recogidos para estudios específicos  a desarrollar e implementar dentro de la empresa. Cada estudio o necesidad determina los tipos de datos que deben recogerse en función de los objetivos y los recursos disponibles para el mismo. 
-      .col-12.col-md-3.d-flex.align-items-end.px-4
+      .col-12.col-md-3.d-flex.align-items-end.px-4(data-aos="fade-left")
         .col-6(style="background-color: #DBDADA; height: 3px; margin-bottom: 2rem")
         .col-6(style="background-color: #7F0F98; height: 3px; margin-bottom: 2rem")
-      .col-12.col-md-3.d-flex.align-items-end.px-4
+      .col-12.col-md-3.d-flex.align-items-end.px-4(data-aos="fade-right")
         .col-6(style="background-color: #3D72E8; height: 3px; margin-bottom: 2rem")
         .col-6(style="background-color: #DBDADA; height: 3px; margin-bottom: 2rem")
-      .container_t_1_ad.col-12.col-md-9.ms-auto
+      .container_t_1_ad.col-12.col-md-9.ms-auto(data-aos="fade-left")
         p.ps-5.py-4(style="background-color: #D4E0FA; color: black") Los tipos de datos utilizados habitualmente en los estudios   suelen estar relacionados con la actividad económica de la empresa. Sin embargo, sea cual sea la naturaleza de los tipos de datos, es necesario disponer de formularios o cuestionarios adecuados para registrar la información que se va a recoger. A menudo, es conveniente preparar estos formularios o cuestionarios por disciplina o tipo de datos. Es preferible el uso de formularios o cuestionarios precodificados, que permitan el registro directo de los datos, ya que, con una formación adecuada, su uso suele dar lugar a menos errores. Además, se utilizará un solo protocolo o conjunto de formularios para recoger y codificar la información que se registrará en el campo para cada unidad de estudio (por ejemplo, familia o individuo).
 
     p El objetivo de esta etapa es elaborar todos los formularios y/o cuestionarios necesarios en sus versiones definitivas, tal y como se utilizarán sobre el registro de la empresa. Estos formularios y cuestionarios deben ir acompañados de un conjunto de instrucciones detalladas, recogidas explícitamente en un manual de codificación. 

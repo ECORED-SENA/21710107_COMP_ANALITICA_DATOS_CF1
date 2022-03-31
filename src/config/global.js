@@ -282,11 +282,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Yerson Fabian Zarate Saavedra',
         cargo: 'Diseño web',
         centro:
@@ -327,12 +322,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      // {
-      //   nombre: 'Andrés Mauricio Santaella Ochoa',
-      //   cargo: 'Soporte front-end',
-      //   centro:
-      //     'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      // },
       {
         nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',

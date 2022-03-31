@@ -7,7 +7,7 @@
         span 2
       h1 Soporte de análisis de datos
     .d-flex.flex-wrap.flex-md-nowrap.mb-5
-      p.col-12.col-md-6.col-xl-7.py-4 El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un software o hardware en un equipo de cómputo, un servidor de Internet o un dispositivo. 
+      p.col-12.col-md-6.col-xl-7.py-4(data-aos="fade-right") El área de soporte técnico es la encargada de ofrecer ayuda a clientes cuando presentan inconvenientes al usar un producto o servicio, tal como un software o hardware en un equipo de cómputo, un servidor de Internet o un dispositivo. 
         br
         br
         | Con el creciente uso de la tecnología en los tiempos modernos, hay una necesidad cada vez mayor de proporcionar soporte técnico. Muchas organizaciones ubican sus departamentos de soporte técnico o centros de llamadas en países o regiones con costes más bajos. Dell fue una de las primeras empresas en externalizar sus departamentos de soporte técnico y atención al cliente a la India, en 2004. También han aumentado las empresas especializadas en ofrecer soporte técnico a otras organizaciones.
@@ -15,7 +15,7 @@
         br
         | Para las empresas que necesitan proporcionar soporte técnico, la externalización les permite mantener una alta disponibilidad del servicio. Esta necesidad puede ser el resultado de picos en el volumen de llamadas durante el día, periodos de gran actividad debido a la introducción de nuevos productos o paquetes de servicios de mantenimiento, o el requisito de proporcionar a los clientes un alto nivel de servicio a un bajo costo para la empresa.
       .col-12.col-md-6.col-xl-5.d-flex.align-items-center.justify-content-center(style="background: linear-gradient(90deg, #FFFAFA, #D8D7D7")
-        img(src="@/assets/curso/tema2/imagen_t_2-1.png" style="max-width: 411px")
+        img(src="@/assets/curso/tema2/imagen_t_2-1.png" data-aos="zoom-in" style="max-width: 411px")
     
     p.py-5.mb-0 Los tipos de soporte de datos más conocidos son: 
 
@@ -24,35 +24,35 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-1.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-1.svg' data-aos="zoom-out-right" alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
         h3.text-center.mb-5 Vía telefónica
-        p.text-center Es la alternativa más ágil de solucionar cualquier requerimiento que presente el cliente.
+        p.text-center(data-aos="fade-up") Es la alternativa más ágil de solucionar cualquier requerimiento que presente el cliente.
 
       .col-md.tarjeta.color-primario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-2.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-2.svg' data-aos="zoom-out-up" alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
         h3.text-center.mb-5 Visita en presencia física
-        p.text-center Se generan algunos problemas que no pueden solucionarse a distancia. Por lo tanto, existe   la alternativa de que un experto técnico del área se desplace al domicilio del cliente o al sitio donde esté ubicado el sistema objeto de soporte.
+        p.text-center(data-aos="fade-up") Se generan algunos problemas que no pueden solucionarse a distancia. Por lo tanto, existe   la alternativa de que un experto técnico del área se desplace al domicilio del cliente o al sitio donde esté ubicado el sistema objeto de soporte.
 
       .col-md.tarjeta.color-secundario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema2/tarjeta_t_2-3.svg', alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
+              img(src='@/assets/curso/tema2/tarjeta_t_2-3.svg' data-aos="zoom-out-left" alt='Texto que describa la imagen', style="max-height: 126px; max-width: 126px")
           
         h3.text-center Correo o texto a través de un dispositivo o vía remota
-        p.text-center Con este sistema, el cliente no deberá estar en espera para contactar con un técnico, puede resolver su duda en el chat o en el sitio web y hacerlo en el momento que presente la necesidad.
+        p.text-center(data-aos="fade-up") Con este sistema, el cliente no deberá estar en espera para contactar con un técnico, puede resolver su duda en el chat o en el sitio web y hacerlo en el momento que presente la necesidad.
     Separador
     // Tema 2.1
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Características del soporte
     
     .d-block.d-md-flex.mb-0.container-decorador
-      img(src="@/assets/curso/tema2/decorador_t_2_1.svg", style="max-width: 45px").me-5.d-none.d-md-flex
+      img(src="@/assets/curso/tema2/decorador_t_2_1.svg" data-aos="flip-left" style="max-width: 45px").me-5.d-none.d-md-flex
       p El soporte técnico se suele subdividir en niveles, para poder atender mejor a una empresa o a una base de clientes. El número de niveles que una empresa utiliza para organizar su grupo de soporte técnico depende de las necesidades de la empresa, en cuanto a su capacidad para atender suficientemente a sus clientes o usuarios. 
         br
         br
@@ -61,19 +61,19 @@
         br
         |Una estructura de soporte común gira en torno a un sistema de soporte técnico de tres niveles, como se comparte en la siguiente imagen: 
 
-    .mt-5.container-card-niveles.col-12.col-xl-6(style="z-index: 3; color: #7F0F98")
+    .mt-5.container-card-niveles.col-12.col-xl-6(style="z-index: 3; color: #7F0F98" data-aos="fade-right")
       .card-nivel-1.col-6
         p Nivel 1
       .card-nivel-2.col-6
         p Es el nivel de asistencia inicial, responsable de los problemas básicos de los clientes.
 
-    .container-card-niveles.col-12.col-xl-6.mx-auto(style="z-index: 2; color: #0754FF")
+    .container-card-niveles.col-12.col-xl-6.mx-auto(style="z-index: 2; color: #0754FF" data-aos="fade-right")
       .card-nivel-1.col-6
         p Nivel 2
       .card-nivel-2.col-6
         p Técnicos que tienen más experiencia y conocimientos sobre un producto o servicio concreto.
 
-    .mb-5.container-card-niveles.col-12.col-xl-6.ms-auto(style="z-index: 1; color: #8A8AF9")
+    .mb-5.container-card-niveles.col-12.col-xl-6.ms-auto(style="z-index: 1; color: #8A8AF9" data-aos="fade-right")
       .card-nivel-1.col-6
         p Nivel 3
       .card-nivel-2.col-6
@@ -133,7 +133,7 @@
         )
         .d-flex.flex-wrap.justify-content-end
           .bloque-texto-g__texto.py-4.py-md-5.px-3.px-md-5
-            p.mb-0 Las tecnologías utilizadas para almacenamiento están en permanente cambio;  la mejor elección es la que obedezca a las necesidades, además de ser productiva, con posibilidades de proyecciones de ampliación y escalabilidad.
+            p.mb-0(data-aos="fade-up") Las tecnologías utilizadas para almacenamiento están en permanente cambio;  la mejor elección es la que obedezca a las necesidades, además de ser productiva, con posibilidades de proyecciones de ampliación y escalabilidad.
 </template>
 
 <script>

@@ -9,9 +9,9 @@
 
     .container-imagen-texto_t_3-1.mb-5(style="background: linear-gradient(90deg, #D8D7D7, #FFFAFA)")
       .col-12.col-md-11.ms-auto.d-flex.flex-wrap.py-4
-        .col-12.col-md-5
+        .col-12.col-md-5(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img_t_3-1.png")
-        .col-12.col-md-7.d-flex
+        .col-12.col-md-7.d-flex(data-aos="fade-left")
           p.my-auto.ps-0.ps-md-4 Las redes de datos son sistemas diseñados para transferir datos entre dos o más puntos de acceso, mediante el uso de controles de sistema, líneas de transmisión y conmutación de datos. Lo que hace que una red de datos sea única con respecto a otros tipos de redes es que está configurada para transmitir únicamente datos.
           img(src="@/assets/curso/tema3/decorador_t_3-1.svg" style="max-width: 78px; position: absolute; right: 1rem; bottom: 2rem")
 
@@ -19,11 +19,12 @@
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema3/img_t_3-2.svg')})`}"
+          data-aos="fade-right"
           style="background-position-x: left; background-size: auto; background-repeat: no-repeat; background-color: #E2DDE4;"
         )
         .d-flex.flex-wrap.justify-content-end
           .bloque-texto-g__texto.py-4.py-md-5.px-3.ps-md-5
-            p.mb-0 ¿Cómo funciona? En general, las redes de datos se definen por su capacidad de transmitir señales mediante la conmutación de paquetes. El mensaje de datos se descompone en bits discretos, llamados paquetes, y estos paquetes se envían por una red digital que utiliza una ruta óptima para minimizar el retraso en la velocidad de la red de datos. Una vez transmitidos, los paquetes de datos se vuelven a ensamblar cuando llegan al destino.
+            p.mb-0(data-aos="fade-right") ¿Cómo funciona? En general, las redes de datos se definen por su capacidad de transmitir señales mediante la conmutación de paquetes. El mensaje de datos se descompone en bits discretos, llamados paquetes, y estos paquetes se envían por una red digital que utiliza una ruta óptima para minimizar el retraso en la velocidad de la red de datos. Una vez transmitidos, los paquetes de datos se vuelven a ensamblar cuando llegan al destino.
 
     .container-text-arrow.pe-0
       img(src="@/assets/curso/tema3/decorador_t_3-1.svg" style="min-width: 62px")
@@ -50,7 +51,7 @@
             span.fw-bold Compartir recursos: 
             | Una red de datos no requiere una conexión física para compartir información. Esto significa que recursos como Internet, medios de almacenamiento e impresoras pueden ser compartidos entre dos o más nodos.
 
-    p Finalmente, las redes de datos son procesos de comunicación que están conectados entre sí por equipos físicos que envían y reciben impulsos u ondas para el transporte de datos, con el fin de distribuir información y ofrecer servicios.
+    p(data-aos="fade-up") Finalmente, las redes de datos son procesos de comunicación que están conectados entre sí por equipos físicos que envían y reciben impulsos u ondas para el transporte de datos, con el fin de distribuir información y ofrecer servicios.
 
     Separador
 
@@ -59,12 +60,12 @@
       h2#t_3_1 3.1 Características de redes de datos
 
     .container-text-arrow.pe-0
-      div
+      div(data-aos="fade-right")
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); width: 36px")
         img(src="@/assets/curso/introduccion/arrow-text.svg").me-4(style="transform: rotate(-180deg); margin-top: -5px")
-      p.d-block.text-center Una red de datos se compone de varias partes clave, como los terminales de datos (por ejemplo, ordenadores personales), el cableado de acceso y los nodos de distribución de datos (por ejemplo, enrutadores y conmutadores), adaptadores de red, cableado de acceso y nodos de distribución de datos (por ejemplo, enrutadores, <em>brouters</em> y <em>switches</em>). Los sistemas de gestión/control de la red se utilizan para configurar, supervisar, coordinar y controlar los elementos de la red.
+      p.d-block.text-center(data-aos="fade-left") Una red de datos se compone de varias partes clave, como los terminales de datos (por ejemplo, ordenadores personales), el cableado de acceso y los nodos de distribución de datos (por ejemplo, enrutadores y conmutadores), adaptadores de red, cableado de acceso y nodos de distribución de datos (por ejemplo, enrutadores, <em>brouters</em> y <em>switches</em>). Los sistemas de gestión/control de la red se utilizan para configurar, supervisar, coordinar y controlar los elementos de la red.
 
-    .col-12.col-md-11.mb-5
+    .col-12.col-md-11.mb-5(data-aos="zoom-in")
       img(src="@/assets/curso/tema3/img_t_3-4.png")
     
     .container-text-arrow.pe-0
@@ -88,7 +89,7 @@
     //-   p.d-block.pe-4.mb-0 Una vez que se genera una incidencia, se traslada a un técnico, de acuerdo con el tipo o nivel de incidencia en el caso concreto, y se asigna de manera directa; dicho técnico diagnostica el problema, identificando la causa que lo genera, y trata de resolverlo. En caso de conseguirlo, se cierra la incidencia como solucionada. Si el problema no se puede solucionar, se pasa al siguiente grado de soporte, para que se encargue de esa incidencia, contando con la información aportada por el grado inferior.
     //-   img(src="@/assets/curso/introduccion/arrow-text.svg").ms-4.me-auto(style="filter: rotate(222deg);").me-auto
     
-    .cajon-b.color-primario.p-3.mb-5.cajon-b-left_t_3
+    .cajon-b.color-primario.p-3.mb-5.cajon-b-left_t_3(data-aos="fade-up")
       p.mb-0 Los avances e innovaciones en la tecnología de las redes de datos han hecho evolucionar continuamente la forma de transmitir y recibir datos. Las redes de datos actuales son una verdadera hazaña de ingenio: van desde simples conexiones individuales hasta sistemas increíblemente complejos de enrutadores, conmutadores y concentradores de red.
     
     //- .container-text-arrow.pe-0
@@ -100,7 +101,7 @@
       h2#t_3_2 3.2 Tipos y usos de redes de datos
 
     .container-text-parrafo-3-2.mb-5
-      p Las redes se configuran con el objeto de transmitir datos de un sistema a otro o de contar con recursos en común, como servidores, bases de datos o impresoras. En función del tamaño y del alcance de la red de computadoras, se puede demostrar una diferenciación entre distintas magnitudes de red. 
+      p(data-aos="fade-up") Las redes se configuran con el objeto de transmitir datos de un sistema a otro o de contar con recursos en común, como servidores, bases de datos o impresoras. En función del tamaño y del alcance de la red de computadoras, se puede demostrar una diferenciación entre distintas magnitudes de red. 
 
     p.mb-5 A continuación, en la infografía, se describen los tipos de redes más relevantes que se encuentran y sus usos:
 
@@ -112,11 +113,11 @@
         p <b>PAN (red de área personal) -</b> Es un modelo de red de comunicación diseñado para intercambio de datos con tecnología moderna, principalmente, para portátiles, tabletas,   equipos de cómputo, impresoras, celulares, con el requisito de estar cerca al punto de conexión o acceso.
         img(src="@/assets/curso/tema3/decorador-card-img-2.svg" style="max-width: 44px").ms-auto
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-1.png")
+        img(src="@/assets/curso/tema3/img-card-1.png" data-aos="zoom-in")
 
     .container-card-img-right-l.mb-4
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-2.png")
+        img(src="@/assets/curso/tema3/img-card-2.png" data-aos="zoom-in")
       .content-card-img
         img(src="@/assets/curso/tema3/decorador-card-img-1.svg" style="max-width: 100px").ms-auto
         p <b>LAN (red de área local) -</b> Puede llegar hasta un radio de 1 KM. Se trata de un grupo de ordenadores y dispositivos asociados, que comparten una línea de comunicaciones común o un enlace inalámbrico con un servidor. Normalmente, una LAN engloba ordenadores y periféricos conectados a un servidor dentro de una zona geográfica definida, como una oficina o un establecimiento comercial.
@@ -132,11 +133,11 @@
         p <b>WAN (red de área amplia) - Sin límite</b>. Es una red que existe en un área geográfica a gran escala. Una WAN conecta diferentes redes más pequeñas, incluidas las redes de área local (LAN) y las redes de área metropolitana (MAN). Esto garantiza que los ordenadores y usuarios de un lugar puedan comunicarse con los de otros lugares. La implementación de la WAN puede hacerse con la ayuda del sistema público de transmisión o de una red privada.
         img(src="@/assets/curso/tema3/decorador-card-img-2.svg" style="max-width: 44px").ms-auto
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-3.png")
+        img(src="@/assets/curso/tema3/img-card-3.png" data-aos="zoom-in")
 
     .container-card-img-right-l.mb-4
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-4.png")
+        img(src="@/assets/curso/tema3/img-card-4.png" data-aos="zoom-in")
       .content-card-img
         img(src="@/assets/curso/tema3/decorador-card-img-1.svg" style="max-width: 100px").ms-auto
         p <b>SAN (Red de área de almacenamiento) -</b> Es la mejor opción, ofrece gran velocidad y rendimiento.  Está compuesta por dispositivos, hosts y conmutadores de almacenamiento, que son conectados a través de distintos protocolos. La disponibilidad de este tipo de red es casi total, dado que los datos que almacena en bloque hacen que se entreguen los recursos de manera eficaz.
@@ -152,11 +153,11 @@
         p <b>WLAN (red de área local inalámbrica) -</b> Es una red informática inalámbrica que enlaza dos o más dispositivos mediante comunicación inalámbrica dentro de un área limitada, como un hogar, una escuela, un laboratorio informático o un edificio de oficinas. Esto permite a los usuarios desplazarse dentro de un área de cobertura local y seguir conectados a la red. A través de una pasarela, una WLAN también puede proporcionar una conexión a Internet más amplia. La mayoría de las WLAN modernas se basan en las normas IEEE 802.11 y se comercializan bajo la marca Wi-Fi.
         img(src="@/assets/curso/tema3/decorador-card-img-2.svg" style="max-width: 44px").ms-auto
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-5.png")
+        img(src="@/assets/curso/tema3/img-card-5.png" data-aos="zoom-in")
 
     .container-card-img-right-l.mb-5
       .img-card-img
-        img(src="@/assets/curso/tema3/img-card-6.png")
+        img(src="@/assets/curso/tema3/img-card-6.png" data-aos="zoom-in")
       .content-card-img
         img(src="@/assets/curso/tema3/decorador-card-img-1.svg" style="max-width: 100px").ms-auto
         p <b>MAN (red de área metropolitana) -</b> Es una red informática que interconecta a los usuarios con los recursos informáticos de un área geográfica o región mayor que la que cubre, incluso una gran red de área local (LAN), pero menor que el área que cubre una red de área amplia (WAN). El término se aplica a la interconexión de las redes de una ciudad en una única red más grande (que luego puede ofrecer también una conexión eficaz a una red de área amplia). También se utiliza para referirse a la interconexión de varias redes de área local mediante puentes con líneas troncales. Este último uso también se denomina a veces red de campus. 
