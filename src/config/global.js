@@ -55,6 +55,12 @@ export default {
             titulo: 'Características del soporte',
             hash: 't_2_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Almacenamiento de la información',
+            hash: 't_2_2',
+          },
         ],
       },
       {
@@ -109,7 +115,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.2',
-            titulo: 'Tipos y usos de software para análisis de datos',
+            titulo: 'Tipos y usos de <em>software</em> para análisis de datos',
             hash: 't_5_2',
           },
         ],
@@ -118,7 +124,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -223,12 +229,12 @@ export default {
   ],
   complementario: [
     {
-      texto: 'formato registro de datos',
+      texto: 'Formato registro de datos',
       tipo: 'Formulario ',
       link: 'https://www.shd.gov.co/shd/node/28582',
     },
     {
-      texto: 'manejo Excel',
+      texto: 'Manejo Excel',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=FCLmYmzJkWs',
     },

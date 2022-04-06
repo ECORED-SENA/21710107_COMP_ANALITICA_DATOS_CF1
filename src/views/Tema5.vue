@@ -13,7 +13,7 @@
         data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4.ps-md-5.d-flex.align-items-center
-        p.mb-0 Según una definición global, una herramienta tecnológica es cualquier "software" o <em>hardware</em>" que ayuda a realizar bien una tarea, entendiéndose por "realizar bien" que se obtenga los resultado esperados, con ahorro de tiempo y ahorro en recursos personales y económicos.
+        p.mb-0 Según una definición global, una herramienta tecnológica es cualquier "<em>software</em>" o "<em>hardware</em>" que ayuda a realizar bien una tarea, entendiéndose por "realizar bien" que se obtenga los resultado esperados, con ahorro de tiempo y ahorro en recursos personales y económicos.
 
     .d-flex.pt-0.pt-md-5.position-relative.mb-5
       img(src="@/assets/curso/tema5/decorador-card-img-1.svg"  style="max-height: 107px; max-width: 44px" data-aos="fade-right")
@@ -34,9 +34,9 @@
           img(src='@/assets/curso/tema5/img_t_5-2.png')
 
       div(x="20%" y="15%" tooltip="Sistema ERP (Enterprise Resource Planning)" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p(style="color: black !important") <b>ERP:</b> la planificación de recursos empresariales es un proceso utilizado por las empresas para gestionar e integrar las partes importantes de sus negocios. Muchas aplicaciones de <em>software</em> ERP son importantes para las empresas, porque les ayudan a implementar la planificación de recursos integrando todos los procesos necesarios para dirigir sus empresas con un único sistema. Un sistema de <em>software</em> ERP también puede integrar la planificación, el inventario de compras, las ventas, el marketing, las finanzas, los recursos humanos, entre otros.
+        p(style="color: black !important") <b>ERP:</b> la planificación de recursos empresariales es un proceso utilizado por las empresas para gestionar e integrar las partes importantes de sus negocios. Muchas aplicaciones de <em>software</em> ERP son importantes para las empresas, porque les ayudan a implementar la planificación de recursos integrando todos los procesos necesarios para dirigir sus empresas con un único sistema. Un sistema de <em>software</em> ERP también puede integrar la planificación, el inventario de compras, las ventas, el <em>marketing</em>, las finanzas, los recursos humanos, entre otros.
       div(x="45%" y="15%" tooltip="CRM (Customer Relationship Management)" numero="+").modal-tipo-modal-1.p-3.p-md-4
-        p(style="color: black !important") <b>CRM:</b> se puede traducir al español como Gestión de las Relaciones con los Clientes y se refiere a todas las estrategias, técnicas, herramientas y tecnologías utilizadas por las empresas para desarrollar, retener y adquirir clientes.
+        p(style="color: black !important") <b>CRM:</b> se puede traducir al español como Gestión de las Relaciones con los Clientes y se refiere a todas las estrategias, técnicas, herramientas y tecnologías utilizadas por las empresas para desarrollar, retener y adquirir clientes. 
           | Este <em>software</em> garantiza que cada paso de la interacción con los consumidores se desarrolle de forma fluida y eficaz, para aumentar los beneficios globales. El <em>software</em> recopila datos de los clientes, procedentes de múltiples canales. Por lo tanto, el CRM almacena información detallada sobre el historial general de compras, información personal e incluso patrones de comportamiento de compra.
       div(x="68%" y="15%" tooltip="Herramientas de BI - Business Intelligence" numero="+").modal-tipo-modal-1.p-3.p-md-4
         p(style="color: black !important") <b>BI:</b> la inteligencia empresarial se refiere a la infraestructura técnica y de procedimiento que recoge, almacena y analiza los datos producidos por las actividades de una empresa. BI es un término amplio, que engloba la extracción de datos, el análisis de procesos, la evaluación comparativa del rendimiento y el análisis descriptivo. La BI analiza todos los datos generados por una empresa y presenta informes fáciles de digerir, medidas de rendimiento y tendencias que informan las decisiones de gestión.
@@ -84,7 +84,7 @@
       .col-12.col-md-3
         img(src="@/assets/curso/tema5/img_t_5-3.png" style="max-width: 190px" data-aos="fade-up").mx-auto.ms-md-auto.mb-4.mb-md-0
       .col-12.col-md-8(data-aos="fade-left")
-        p Por ejemplo, el monitor del ordenador que está utilizando para leer este texto y el ratón que está utilizando para navegar por esta página web son <em>hardware</em> informático. El navegador de Internet que le permite ver esta página y el sistema operativo en el que se ejecuta el navegador se consideran software. Una tarjeta de video es <em>hardware</em>, y un juego de ordenador es software. Se puede tocar y sentir la tarjeta de video, y el ordenador la utiliza para desplegar un juego de ordenador, pero no se puede tocar ni sentir el código de programación que compone el juego de ordenador.
+        p Por ejemplo, el monitor del ordenador que está utilizando para leer este texto y el ratón que está utilizando para navegar por esta página web son <em>hardware</em> informático. El navegador de Internet que le permite ver esta página y el sistema operativo en el que se ejecuta el navegador se consideran <em>software</em>. Una tarjeta de video es <em>hardware</em>, y un juego de ordenador es <em>software</em>. Se puede tocar y sentir la tarjeta de video, y el ordenador la utiliza para desplegar un juego de ordenador, pero no se puede tocar ni sentir el código de programación que compone el juego de ordenador.
     p.mb-5 Los programas de aplicación que ayudan a los usuarios en las tareas habituales de oficina, como la creación, actualización y mantenimiento de documentos, el manejo de grandes cantidades de datos, la creación de presentaciones, la programación, etc., se denominan herramientas ofimáticas. El uso de herramientas ofimáticas ahorra tiempo y esfuerzo y permite realizar fácilmente muchas tareas repetitivas. Algunos de los programas que hacen esto son:
 
     TabsA.color-acento-contenido.mb-5.tabs-a_t_5
@@ -145,11 +145,11 @@
             br
             | El <em>software</em> que gestiona el almacenamiento, la actualización y la recuperación de datos mediante la creación de bases de datos se denomina sistema de gestión de bases de datos. Algunas herramientas populares de gestión de bases de datos son MS-Access, MySQL, Oracle, FoxPro, etc.
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Software de presentación")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="<em>Software</em> de presentación")
         .container-text-arrow.pe-0.flex-wrap.flex-md-nowrap.mb-3.mb-md-0
           img(src="@/assets/curso/tema5/pestanas_t_5-4.png" style="max-width: 53px; max-height: 70px").me-4.mb-4
           p.d-block
-            b Software de presentación
+            b <em>Software</em> de presentación
             br
             | La herramienta de presentación permite al usuario mostrar información desglosada en pequeños fragmentos y dispuesta en páginas denominadas diapositivas. Una serie de diapositivas que presentan una idea coherente a un público se denomina presentación. Las diapositivas pueden tener texto, imágenes, tablas, audio, video u otra información multimedia. MS-PowerPoint, OpenOffice Impress, Lotus Freelance, etc., son algunas de las herramientas de presentación más populares.
 

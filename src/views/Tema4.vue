@@ -55,7 +55,7 @@
 
     p.mb-5(data-aos="fade-up") Tanto si se trabaja con un entorno exclusivamente digital como en un entorno híbrido, con documentos digitales y en papel, la creación de un sistema de gestión de documentos implica tres pasos:
 
-    img(src="@/assets/curso/tema4/img_t_4-4.png" data-aos="zoom-in").col-12.col-md-11.mx-auto.mb-5
+    img(src="@/assets/curso/tema4/img_t_4-8.png" data-aos="zoom-in").col-12.col-md-11.mx-auto.mb-5
     p.mb-5 Cada uno de estos pasos se describen a continuación:
     p.fw-bold Crear un plan de gestión de documentos.
     p Facturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.
@@ -77,10 +77,10 @@
 
     p.mb-5 Para algunas pequeñas empresas, los únicos puntos importantes serán dónde se encuentran las plantillas de los distintos documentos empresariales y cómo utilizarlas. Pero si la creación de documentos dentro de su empresa implica que diferentes personas colaboren en ellos, los revisen o los actualicen, tendrá que dedicar algún tiempo a decidir cómo deben hacerse estos elementos, para garantizar la eficiencia y la coherencia.
 
-    .d-flex.flex-wrap.flex-md-nowrap.align-items-center
-      img(src="@/assets/curso/tema4/img_t_4-5.png" data-aos="fade-right").pe-0.pe-md-2.mb-5.d-none.d-md-flex
-      img(src="@/assets/curso/tema4/img_t_4-6.png" data-aos="fade-up").pe-0.pe-md-2.mb-4
-      img(src="@/assets/curso/tema4/img_t_4-7.png" data-aos="fade-left").ps-0.ps-md-4.mb-5
+    .d-flex.flex-wrap.align-items-center
+      img(src="@/assets/curso/tema4/img_t_4-5.png" data-aos="fade-right").col-12.col-md-3.pe-0.pe-md-2.mb-5.d-none.d-md-flex
+      img(src="@/assets/curso/tema4/img_t_4-6.png" data-aos="fade-up").col-12.col-md-4.pe-0.pe-md-2.mb-4
+      img(src="@/assets/curso/tema4/img_t_4-7.png" data-aos="fade-left").col-12.col-md-5.ps-0.ps-md-4.mb-5
     
     //- p.fw-bold Poner en marcha el plan de gestión documental.
     //- p.mb-4 Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.

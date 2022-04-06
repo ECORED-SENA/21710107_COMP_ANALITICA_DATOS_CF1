@@ -73,16 +73,16 @@
       p.d-block.text-center La comunicación de datos consiste en la transmisión de mensajes digitales entre dispositivos como ordenadores, teléfonos inteligentes, dispositivos móviles, radios y otros. La forma en que se comunican y fluyen los datos en las redes puede clasificarse en comunicación "símplex" o "dúplex". Para ampliar lo que representa cada una de ellas, ingrese a las siguientes pestañas.
 
     TabsA.color-primario.mb-5.tabsA_t_3
-      .tarjeta.color-primario--borde.d-flex.flex-wrap.flex-md-nowrap.px-4.px-md-5.py-4(titulo="Comunicación Sìmplex " style="background: transparent;")
+      .tarjeta.color-primario--borde.d-flex.flex-wrap.flex-md-nowrap.px-4.px-md-5.py-4(titulo="Comunicación símplex " style="background: transparent;")
         .d-block.pe-4
-          p.fw-bold Comunicación Sìmplex
+          p.fw-bold Comunicación símplex
           p Los datos solo fluyen en una dirección: del emisor al receptor. Sin embargo, este flujo se convierte en bidireccional cuando se trata de una comunicación dúplex, lo que significa que los datos pueden fluir de ida y vuelta entre el emisor y el receptor.
         img(src="@/assets/curso/tema3/img_t_3-5.png" style="max-width: 409px")
 
       .tarjeta.color-primario--borde.d-flex.flex-wrap.flex-md-nowrap.px-4.px-md-5.py-4(titulo="Comunicación dúplex " style="background: transparent;")
         .d-block.pe-4
           p.fw-bold Comunicación dúplex 
-          p También puede funcionar en modo full-duplex o half-duplex. En el modo full-duplex, tanto el emisor como el receptor trabajan simultáneamente. En el modo half-duplex, solo uno puede funcionar a la vez.
+          p También puede funcionar en modo <em>full-duplex</em> o <em>half-duplex</em>. En el modo <em>full-duplex</em>, tanto el emisor como el receptor trabajan simultáneamente. En el modo <em>half-duplex</em>, solo uno puede funcionar a la vez.
         img(src="@/assets/curso/tema3/img_t_3-6.png" style="max-width: 409px")
     
     //- .container-text-arrow.pe-0.mb-3
@@ -239,9 +239,12 @@ export default {
     span
       font-size: 2rem
       font-weight: bold
+      position: relative
+      z-index: 1
     &::before
       content: ''
       position: absolute
+      z-index: 0
       top: 50%
       right: -50px
       height: 60px
@@ -338,6 +341,7 @@ export default {
       border-bottom-left-radius: 24px
       border-bottom-right-radius: 24px
       &::before
+        z-index: 0
         top: -30px
         left: 42%
         transform: rotate(-45deg)

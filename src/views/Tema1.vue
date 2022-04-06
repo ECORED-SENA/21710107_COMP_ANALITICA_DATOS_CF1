@@ -9,15 +9,15 @@
     
     .container-data-t_1
       .container-data-parrafo-t_1
-        p El manejo de los datos, en los últimos años, está revolucionando muchos campos de la empresa, y la analítica logística es uno de ellos. La naturaleza compleja y dinámica de la logística, junto con la dependencia de muchas partes móviles que pueden crear cuellos de botella en cualquier punto de la cadena de suministro, hacen de la logística un caso de uso perfecto para el Big Data.
+        p El manejo de los datos, en los últimos años, está revolucionando muchos campos de la empresa, y la analítica logística es uno de ellos. La naturaleza compleja y dinámica de la logística, junto con la dependencia de muchas partes móviles que pueden crear cuellos de botella en cualquier punto de la cadena de suministro, hacen de la logística un caso de uso perfecto para el <em>big data</em>.
           br
           br
-          | El aumento de la cantidad de datos disponibles presenta tanto oportunidades como problemas. En general, disponer de más datos sobre los clientes (y los clientes potenciales) debería permitir a las empresas adaptar mejor los productos y los esfuerzos de <em>marketing</em>, con el fin de crear mayor nivel de satisfacción y de repetición del negocio. Las empresas que recogen una gran cantidad de datos tienen la oportunidad de realizar análisis más profundos y ricos, en beneficio de todas las partes interesadas. Por ejemplo, el Big Data logístico puede utilizarse para optimizar las rutas, racionalizar las funciones de las fábricas y dar transparencia a toda la cadena de suministro, en beneficio tanto de las empresas como de su logística.
+          | El aumento de la cantidad de datos disponibles presenta tanto oportunidades como problemas. En general, disponer de más datos sobre los clientes (y los clientes potenciales) debería permitir a las empresas adaptar mejor los productos y los esfuerzos de <em>marketing</em>, con el fin de crear mayor nivel de satisfacción y de repetición del negocio. Las empresas que recogen una gran cantidad de datos tienen la oportunidad de realizar análisis más profundos y ricos, en beneficio de todas las partes interesadas. Por ejemplo, el <em>big data</em> logístico puede utilizarse para optimizar las rutas, racionalizar las funciones de las fábricas y dar transparencia a toda la cadena de suministro, en beneficio tanto de las empresas como de su logística.
       img(src="@/assets/curso/tema1/imagen_t_1.png" data-aos="fade-up").mt-4.mt-md-0
 
     .container-decorador.col-12.col-md-11.mb-3
       .container-decorador-text(data-aos="fade-right")
-        p El Big Data en logística requiere una gran cantidad de fuentes de información de alta calidad para 
+        p El <em>big data</em> en logística requiere una gran cantidad de fuentes de información de alta calidad para 
          | funcionar eficazmente. ¿De dónde van a salir todos esos datos? A continuación, se relaciona una 
          | amplia selección de posibles fuentes de datos, entre las que se incluyen:
       img(src="@/assets/curso/tema1/decorador_t_1-1.svg" data-aos="fade-left").d-none.d-md-flex
@@ -29,7 +29,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/tarjeta-flip-1_t_1.svg')})`}" style="background-color: #F0F0F0")
             .tarjeta-flip__contenido(style="background-color: #F0F0F0;")
-              p <b>Datos tradicionales de la empresa</b> <br><br> procedentes de los sistemas operativos
+              p <b>Datos tradicionales de la empresa</b> <br><br> procedentes de los sistemas operativos.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip
@@ -77,10 +77,10 @@
     .container-bg
       img(src="@/assets/curso/tema1/imagen_t_1_img-1.png" data-aos="fade-right" style="max-width: 400px; max-height: 237px").mb-4.mb-md-0
       .container-bg-text-img(data-aos="fade-left")
-        p Es claro que hay muchas formas de alimentar los sistemas de datos con la información que necesitan. Todas estas fuentes de datos y casos de uso potenciales han llevado a afirmar que la tecnología de Big Data y automatización conducirá a niveles de optimización antes inimaginables en la fabricación, la logística, el almacenamiento y la entrega de última milla.
+        p Es claro que hay muchas formas de alimentar los sistemas de datos con la información que necesitan. Todas estas fuentes de datos y casos de uso potenciales han llevado a afirmar que la tecnología de <em>big data</em> y automatización conducirá a niveles de optimización antes inimaginables en la fabricación, la logística, el almacenamiento y la entrega de última milla.
           br
           br
-          | Los Big Data pueden recopilarse a partir de comentarios compartidos públicamente en redes sociales y sitios web, recogidos voluntariamente en aparatos electrónicos y aplicaciones personales, mediante cuestionarios, compras de productos y registros electrónicos. La presencia de sensores y otras entradas en los dispositivos inteligentes permite recopilar datos en un amplio espectro de situaciones y circunstancias. En cualquier caso, parece que el futuro es brillante para las empresas de logística que estén dispuestas a aprovechar el Big Data.
+          | Los <em>big data</em> pueden recopilarse a partir de comentarios compartidos públicamente en redes sociales y sitios web, recogidos voluntariamente en aparatos electrónicos y aplicaciones personales, mediante cuestionarios, compras de productos y registros electrónicos. La presencia de sensores y otras entradas en los dispositivos inteligentes permite recopilar datos en un amplio espectro de situaciones y circunstancias. En cualquier caso, parece que el futuro es brillante para las empresas de logística que estén dispuestas a aprovechar el <em>big data</em>.
     Separador
     // Tema #1
     .titulo-segundo.color-primario
@@ -189,7 +189,7 @@
               h3.mb-0.texto-blanco Registro De Información Tributaria RIT
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.shd.gov.co/shd/node/28582" target="_blank")
-                span Descargar
+                span Ver
                 i.fas.fa-file-download
     p Además de ello, las instrucciones de diligenciamiento
     .tarjeta.px-3.py-4.mb-3(style="background: linear-gradient(90DEG, #A904C2, #400F71)").col-12
@@ -202,7 +202,7 @@
               h3.mb-0.texto-blanco Instrucciones de diligenciamiento
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.shd.gov.co/shd/node/28582" target="_blank")
-                span Descargar
+                span Ver
                 i.fas.fa-file-download
 
 </template>
