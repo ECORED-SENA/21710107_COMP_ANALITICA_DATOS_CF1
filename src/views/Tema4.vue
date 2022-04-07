@@ -55,64 +55,48 @@
 
     p.mb-5(data-aos="fade-up") Tanto si se trabaja con un entorno exclusivamente digital como en un entorno híbrido, con documentos digitales y en papel, la creación de un sistema de gestión de documentos implica tres pasos:
 
-    img(src="@/assets/curso/tema4/img_t_4-8.png" data-aos="zoom-in").col-12.col-md-11.mx-auto.mb-5
+    img(src="@/assets/curso/tema4/img_t_4-8.svg" data-aos="zoom-in").col-12.mb-5
     p.mb-5 Cada uno de estos pasos se describen a continuación:
-    p.fw-bold Crear un plan de gestión de documentos.
-    p Facturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.
-    p.d-flex.mb-2
-      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px" data-aos="flip-down").me-2
-      | ¿Existen plantillas internas para algunos de sus documentos empresariales, como cartas o facturas?
-    p.d-flex.mb-2
-      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px" data-aos="flip-down").me-2
-      | ¿Dónde se encuentran?
-    p.d-flex.mb-2
-      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px" data-aos="flip-down").me-2
-      | ¿Existe una guía de estilo interna que deba seguirse?
-    p.d-flex.mb-2
-      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px" data-aos="flip-down").me-2
-      | ¿Deben fecharse o sellarse los nuevos documentos?
-    p.d-flex.mb-4
-      img(src="@/assets/curso/tema4/comprobado.svg" style="max-width: 13px" data-aos="flip-down").me-2
-      | ¿Qué procedimientos deben seguirse para compartir o revisar los documentos?
-
-    p.mb-5 Para algunas pequeñas empresas, los únicos puntos importantes serán dónde se encuentran las plantillas de los distintos documentos empresariales y cómo utilizarlas. Pero si la creación de documentos dentro de su empresa implica que diferentes personas colaboren en ellos, los revisen o los actualicen, tendrá que dedicar algún tiempo a decidir cómo deben hacerse estos elementos, para garantizar la eficiencia y la coherencia.
-
-    .d-flex.flex-wrap.align-items-center
-      img(src="@/assets/curso/tema4/img_t_4-5.png" data-aos="fade-right").col-12.col-md-3.pe-0.pe-md-2.mb-5.d-none.d-md-flex
-      img(src="@/assets/curso/tema4/img_t_4-6.png" data-aos="fade-up").col-12.col-md-4.pe-0.pe-md-2.mb-4
-      img(src="@/assets/curso/tema4/img_t_4-7.png" data-aos="fade-left").col-12.col-md-5.ps-0.ps-md-4.mb-5
     
-    //- p.fw-bold Poner en marcha el plan de gestión documental.
-    //- p.mb-4 Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.
-    //-   br
-    //-   br
-    //-   | También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
+    .col-md-11.mx-auto
+      LineaTiempoD.color-primario
+        .row(numero="1" titulo="Crear un plan de gestión de documentos.")
+          .col-md-7.mb-4.mb-md-0
+            p.text-small Facturas, cartas de recordatorio de pago, folletos de ventas, correo electrónico, balances, hojas de cálculo, informes... Todas las empresas crean una gran variedad de documentos en el transcurso de su actividad y de su seguimiento. Y, para mantener las cosas organizadas, todas las empresas necesitan establecer reglas para crear documentos.
+              br
+              br
+              | ¿Existen plantillas internas para algunos de sus documentos empresariales, como cartas o facturas? ¿Dónde se encuentran?
+              | ¿Existe una guía de estilo interna que deba seguirse?
+              | ¿Deben fecharse o sellarse los nuevos documentos?
+              | ¿Qué procedimientos deben seguirse para compartir o revisar los documentos?
+              br
+              br
+              | Para algunas pequeñas empresas, los únicos puntos importantes serán dónde se encuentran las plantillas de los distintos documentos empresariales y cómo utilizarlas. Pero si la creación de documentos dentro de su empresa implica que diferentes personas colaboren en ellos, los revisen o los actualicen, tendrá que dedicar algún tiempo a decidir cómo deben hacerse estos elementos, para garantizar la eficiencia y la coherencia.
+              br
+              br
+              | TIP: Google Docs es un estándar del sector para los proyectos de colaboración, ya que ofrece varias opciones para controlar los permisos, ver las ediciones y compartir un mismo documento entre varias personas, con controles de seguridad.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema4/img-1.png')
 
-    .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header(style="background-color: #88A8F1")
-        h5.mb-0 Poner en marcha el plan de gestión documental.
-      table
-        tr(style="background-color: #F6F6F6")
-          th(style="width: 208px !important")
-            img(src="@/assets/curso/tema4/img-tabla_t_4-1.png" style="max-width: 190px" data-aos="fade-right")
-          td
-            p(data-aos="fade-down") Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.
+        .row(numero="2" titulo="Poner en marcha el plan de gestión documental.")
+          .col-md-7.mb-4.mb-md-0
+            p.text-small Una vez que haya creado su plan de gestión de documentos, respondiendo a las preguntas anteriores, estará listo para ponerlo en práctica. Asegúrese de que todo el personal conoce los detalles del sistema de gestión de documentos de su empresa y de que todo el mundo sigue los procedimientos adecuados a la hora de crear, almacenar y recuperar documentos.
               br
               br
-              |También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
-    .tabla-b.color-acento-contenido.mb-5
-      .tabla-b__header(style="background-color: #88A8F1")
-        h5.mb-0 Realizar un seguimiento.
-      table
-        tr(style="background-color: #F6F6F6")
-          th(style="width: 208px !important")
-            img(src="@/assets/curso/tema4/img-tabla_t_4-2.png" style="max-width: 190px" data-aos="fade-right")
-          td
-            p(data-aos="fade-down") Compruebe periódicamente que determinados archivos pueden encontrarse fácilmente y evite que se archiven de forma incorrecta. Incluso, un descuido ocasional puede echar a perder todo el sistema.
+              | También tendrá que asegurarse de que todas las personas que acceden a los documentos y los utilizan dentro de su organización sigan el procedimiento de nombrar y almacenar los documentos de forma adecuada.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema4/img-2.png')
+        .row(numero="2" titulo="Realizar un seguimiento.")
+          .col-md-7.mb-4.mb-md-0
+            p.text-small Compruebe periódicamente que determinados archivos pueden encontrarse fácilmente y evite que se archiven de forma incorrecta. Incluso, un descuido ocasional puede echar a perder todo el sistema.
               br
               br
               | Por último, un proceso documental en un sistema de administración gana interés una vez que, al implementarse una herramienta tecnológica usada en procesos logísticos, como Enterprise Resource Planning (planificación de recursos empresariales, ERP),  posibilita vincular los datos y registros con documentos, perfeccionando la estabilidad de ingreso, y desde luego, con la probabilidad de su uso de manera remota, en tiempo real,  sobre toda su información y en cualquier instante.
-
+          .col-md-5
+            figure
+              img(src='@/assets/curso/tema4/img-3.png')
     
 </template>
 

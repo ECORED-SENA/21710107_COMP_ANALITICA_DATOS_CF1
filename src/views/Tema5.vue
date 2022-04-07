@@ -215,7 +215,7 @@ export default {
     min-height: 41px
 @media (max-width: 768px)
   .container-text-arrow
-    align-items: start
+    align-items: flex-start
     img
       margin-top: 3rem
       max-width: 35px

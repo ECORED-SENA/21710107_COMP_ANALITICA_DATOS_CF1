@@ -297,7 +297,7 @@ export default {
     cursor: pointer
   .tarjeta-flip__contenido
     display: flex
-    align-items: start
+    align-items: flex-start
     justify-content: center
     padding: 2rem
 .container-bg
@@ -406,7 +406,7 @@ export default {
     min-height: 41px
 @media (max-width: 768px)
   .container-text-arrow
-    align-items: start
+    align-items: flex-start
     img
       margin-top: 3rem
       max-width: 35px
