@@ -229,17 +229,20 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Formato registro de datos',
+      texto:
+        'Secretaría Distrital de Hacienda. (s. f.). Registro de Información Tributaria – RIT. Gov.co.',
       tipo: 'Formulario ',
       link: 'https://www.shd.gov.co/shd/node/28582',
     },
     {
-      texto: 'Manejo Excel',
+      texto:
+        'Troncoso, E. (2021). Manejo básico de la herramienta de hojas de cálculo excel [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=FCLmYmzJkWs',
     },
     {
-      texto: 'Tratamiento de datos personales',
+      texto:
+        'Superintendencia de Industria y Comercio. (2021). Guía Cloud Computing 2021. Issuu.',
       tipo: 'guía ',
       link: 'https://issuu.com/quioscosic/docs/guia_cloud_computing_2021',
     },
